@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.utils
+package io.definenulls.bitcoincore.utils
 
-import io.horizontalsystems.bitcoincore.exceptions.AddressFormatException
-import io.horizontalsystems.bitcoincore.models.Address
-import io.horizontalsystems.bitcoincore.models.PublicKey
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.exceptions.AddressFormatException
+import io.definenulls.bitcoincore.models.Address
+import io.definenulls.bitcoincore.models.PublicKey
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 
 interface IAddressConverter {
     @Throws

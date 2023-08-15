@@ -1,10 +1,10 @@
-package io.horizontalsystems.dashkit.models
+package io.definenulls.dashkit.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
-import io.horizontalsystems.bitcoincore.utils.HashUtils
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.utils.HashUtils
 
 @Entity
 class Masternode() : Comparable<Masternode> {

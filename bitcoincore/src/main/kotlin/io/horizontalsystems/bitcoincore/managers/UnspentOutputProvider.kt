@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.core.PluginManager
-import io.horizontalsystems.bitcoincore.models.BalanceInfo
-import io.horizontalsystems.bitcoincore.storage.UnspentOutput
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.core.PluginManager
+import io.definenulls.bitcoincore.models.BalanceInfo
+import io.definenulls.bitcoincore.storage.UnspentOutput
 
 class UnspentOutputProvider(private val storage: IStorage, private val confirmationsThreshold: Int = 6, val pluginManager: PluginManager) : IUnspentOutputProvider {
     override fun getSpendableUtxo(): List<UnspentOutput> {

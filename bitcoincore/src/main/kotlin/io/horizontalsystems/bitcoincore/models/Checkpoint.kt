@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.models
+package io.definenulls.bitcoincore.models
 
-import io.horizontalsystems.bitcoincore.extensions.hexToByteArray
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.storage.BlockHeader
+import io.definenulls.bitcoincore.extensions.hexToByteArray
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.storage.BlockHeader
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.io.Reader

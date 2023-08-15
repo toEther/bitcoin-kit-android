@@ -1,7 +1,7 @@
 
-package io.horizontalsystems.bitcoincore.crypto;
+package io.definenulls.bitcoincore.crypto;
 
-import io.horizontalsystems.bitcoincore.exceptions.AddressFormatException;
+import io.definenulls.bitcoincore.exceptions.AddressFormatException;
 
 public class Bech32Cash extends Bech32 {
 

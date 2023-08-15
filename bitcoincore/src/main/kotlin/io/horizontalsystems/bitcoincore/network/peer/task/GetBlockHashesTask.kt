@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.network.peer.task
+package io.definenulls.bitcoincore.network.peer.task
 
-import io.horizontalsystems.bitcoincore.models.InventoryItem
-import io.horizontalsystems.bitcoincore.network.messages.GetBlocksMessage
-import io.horizontalsystems.bitcoincore.network.messages.IMessage
-import io.horizontalsystems.bitcoincore.network.messages.InvMessage
+import io.definenulls.bitcoincore.models.InventoryItem
+import io.definenulls.bitcoincore.network.messages.GetBlocksMessage
+import io.definenulls.bitcoincore.network.messages.IMessage
+import io.definenulls.bitcoincore.network.messages.InvMessage
 import java.util.concurrent.TimeUnit
 import kotlin.math.max
 import kotlin.math.min

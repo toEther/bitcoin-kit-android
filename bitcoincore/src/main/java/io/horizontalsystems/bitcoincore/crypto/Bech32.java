@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.crypto;
+package io.definenulls.bitcoincore.crypto;
 
 import androidx.annotation.NonNull;
 

@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.network.messages
+package io.definenulls.bitcoincore.network.messages
 
-import io.horizontalsystems.bitcoincore.exceptions.BitcoinException
-import io.horizontalsystems.bitcoincore.io.BitcoinInput
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
-import io.horizontalsystems.bitcoincore.utils.HashUtils
+import io.definenulls.bitcoincore.exceptions.BitcoinException
+import io.definenulls.bitcoincore.io.BitcoinInput
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.utils.HashUtils
 import java.io.IOException
 import java.nio.charset.StandardCharsets
 import java.util.*

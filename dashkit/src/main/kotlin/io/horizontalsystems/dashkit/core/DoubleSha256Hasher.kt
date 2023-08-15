@@ -1,7 +1,7 @@
-package io.horizontalsystems.dashkit.core
+package io.definenulls.dashkit.core
 
-import io.horizontalsystems.bitcoincore.core.IHasher
-import io.horizontalsystems.bitcoincore.utils.HashUtils
+import io.definenulls.bitcoincore.core.IHasher
+import io.definenulls.bitcoincore.utils.HashUtils
 
 class SingleSha256Hasher : IHasher {
     override fun hash(data: ByteArray): ByteArray {

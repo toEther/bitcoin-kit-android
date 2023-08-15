@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.models.TransactionOutput
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
-import io.horizontalsystems.bitcoincore.utils.Utils
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.models.TransactionOutput
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.utils.Utils
 
 interface IIrregularOutputFinder {
     fun hasIrregularOutput(outputs: List<TransactionOutput>): Boolean

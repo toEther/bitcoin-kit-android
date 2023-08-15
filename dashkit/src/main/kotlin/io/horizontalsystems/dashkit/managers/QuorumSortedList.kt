@@ -1,6 +1,6 @@
-package io.horizontalsystems.dashkit.managers
+package io.definenulls.dashkit.managers
 
-import io.horizontalsystems.dashkit.models.Quorum
+import io.definenulls.dashkit.models.Quorum
 
 class QuorumSortedList {
     private val quorumList = mutableListOf<Quorum>()

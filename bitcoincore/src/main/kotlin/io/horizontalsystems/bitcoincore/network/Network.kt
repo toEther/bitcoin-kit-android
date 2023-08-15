@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.network
+package io.definenulls.bitcoincore.network
 
-import io.horizontalsystems.bitcoincore.models.Checkpoint
-import io.horizontalsystems.bitcoincore.transactions.scripts.Sighash
-import io.horizontalsystems.bitcoincore.utils.HashUtils
+import io.definenulls.bitcoincore.models.Checkpoint
+import io.definenulls.bitcoincore.transactions.scripts.Sighash
+import io.definenulls.bitcoincore.utils.HashUtils
 
 abstract class Network {
 

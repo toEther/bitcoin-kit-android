@@ -1,13 +1,13 @@
-package io.horizontalsystems.bitcoincore.blocks
+package io.definenulls.bitcoincore.blocks
 
 import com.nhaarman.mockitokotlin2.*
-import io.horizontalsystems.bitcoincore.MockedBlocks
-import io.horizontalsystems.bitcoincore.blocks.validators.BlockValidatorException
-import io.horizontalsystems.bitcoincore.blocks.validators.IBlockValidator
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.models.Block
-import io.horizontalsystems.bitcoincore.models.MerkleBlock
-import io.horizontalsystems.bitcoincore.storage.BlockHeader
+import io.definenulls.bitcoincore.MockedBlocks
+import io.definenulls.bitcoincore.blocks.validators.BlockValidatorException
+import io.definenulls.bitcoincore.blocks.validators.IBlockValidator
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.models.Block
+import io.definenulls.bitcoincore.models.MerkleBlock
+import io.definenulls.bitcoincore.storage.BlockHeader
 import org.junit.Assert.assertEquals
 import org.junit.Assert.fail
 import org.mockito.Mockito.mock

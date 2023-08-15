@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.utils.Utils
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.utils.Utils
 
 class PendingOutpointsProvider(private val storage: IStorage) : IBloomFilterProvider {
 

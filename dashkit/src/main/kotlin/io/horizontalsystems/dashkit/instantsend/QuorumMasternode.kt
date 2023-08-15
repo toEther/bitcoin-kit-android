@@ -1,6 +1,6 @@
-package io.horizontalsystems.dashkit.instantsend
+package io.definenulls.dashkit.instantsend
 
-import io.horizontalsystems.dashkit.models.Masternode
+import io.definenulls.dashkit.models.Masternode
 
 class QuorumMasternode(val quorumHash: ByteArray, val masternode: Masternode) : Comparable<QuorumMasternode> {
 

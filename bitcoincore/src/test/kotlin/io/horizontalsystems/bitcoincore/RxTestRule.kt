@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore
+package io.definenulls.bitcoincore
 
 import io.reactivex.plugins.RxJavaPlugins
 import io.reactivex.schedulers.Schedulers

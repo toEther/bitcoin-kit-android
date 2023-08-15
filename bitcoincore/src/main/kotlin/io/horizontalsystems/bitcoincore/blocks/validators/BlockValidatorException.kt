@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.blocks.validators
+package io.definenulls.bitcoincore.blocks.validators
 
-import io.horizontalsystems.bitcoincore.extensions.toReversedHex
+import io.definenulls.bitcoincore.extensions.toReversedHex
 
 open class BlockValidatorException(msg: String) : RuntimeException(msg) {
     class NoHeader : BlockValidatorException("No Header")

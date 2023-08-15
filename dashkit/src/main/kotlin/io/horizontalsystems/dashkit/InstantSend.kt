@@ -1,19 +1,19 @@
-package io.horizontalsystems.dashkit
+package io.definenulls.dashkit
 
-import io.horizontalsystems.bitcoincore.models.InventoryItem
-import io.horizontalsystems.bitcoincore.network.peer.IInventoryItemsHandler
-import io.horizontalsystems.bitcoincore.network.peer.IPeerTaskHandler
-import io.horizontalsystems.bitcoincore.network.peer.Peer
-import io.horizontalsystems.bitcoincore.network.peer.task.PeerTask
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
-import io.horizontalsystems.bitcoincore.transactions.TransactionSyncer
-import io.horizontalsystems.dashkit.instantsend.instantsendlock.InstantSendLockHandler
-import io.horizontalsystems.dashkit.instantsend.transactionlockvote.TransactionLockVoteHandler
-import io.horizontalsystems.dashkit.messages.ISLockMessage
-import io.horizontalsystems.dashkit.messages.TransactionLockVoteMessage
-import io.horizontalsystems.dashkit.tasks.RequestInstantSendLocksTask
-import io.horizontalsystems.dashkit.tasks.RequestTransactionLockRequestsTask
-import io.horizontalsystems.dashkit.tasks.RequestTransactionLockVotesTask
+import io.definenulls.bitcoincore.models.InventoryItem
+import io.definenulls.bitcoincore.network.peer.IInventoryItemsHandler
+import io.definenulls.bitcoincore.network.peer.IPeerTaskHandler
+import io.definenulls.bitcoincore.network.peer.Peer
+import io.definenulls.bitcoincore.network.peer.task.PeerTask
+import io.definenulls.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.transactions.TransactionSyncer
+import io.definenulls.dashkit.instantsend.instantsendlock.InstantSendLockHandler
+import io.definenulls.dashkit.instantsend.transactionlockvote.TransactionLockVoteHandler
+import io.definenulls.dashkit.messages.ISLockMessage
+import io.definenulls.dashkit.messages.TransactionLockVoteMessage
+import io.definenulls.dashkit.tasks.RequestInstantSendLocksTask
+import io.definenulls.dashkit.tasks.RequestTransactionLockRequestsTask
+import io.definenulls.dashkit.tasks.RequestTransactionLockVotesTask
 import java.util.concurrent.Executors
 
 class InstantSend(

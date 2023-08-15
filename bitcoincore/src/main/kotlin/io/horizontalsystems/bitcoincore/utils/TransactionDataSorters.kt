@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.utils
+package io.definenulls.bitcoincore.utils
 
-import io.horizontalsystems.bitcoincore.core.ITransactionDataSorter
-import io.horizontalsystems.bitcoincore.models.TransactionOutput
-import io.horizontalsystems.bitcoincore.storage.UnspentOutput
+import io.definenulls.bitcoincore.core.ITransactionDataSorter
+import io.definenulls.bitcoincore.models.TransactionOutput
+import io.definenulls.bitcoincore.storage.UnspentOutput
 import java.util.*
 
 class Bip69Sorter : ITransactionDataSorter {

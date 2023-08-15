@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.crypto
+package io.definenulls.bitcoincore.crypto
 
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
-import io.horizontalsystems.bitcoincore.utils.Utils
+import io.definenulls.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.utils.Utils
 import java.lang.Double.valueOf
 import java.util.*
 import kotlin.math.ln

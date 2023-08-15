@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincash.blocks
+package io.definenulls.bitcoincash.blocks
 
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.managers.BlockValidatorHelper
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.managers.BlockValidatorHelper
+import io.definenulls.bitcoincore.models.Block
 
 class BitcoinCashBlockValidatorHelper(storage: IStorage) : BlockValidatorHelper(storage) {
 

@@ -1,8 +1,8 @@
-package io.horizontalsystems.dashkit.masternodelist
+package io.definenulls.dashkit.masternodelist
 
-import io.horizontalsystems.bitcoincore.core.IHasher
-import io.horizontalsystems.bitcoincore.utils.HashUtils
-import io.horizontalsystems.dashkit.IMerkleHasher
+import io.definenulls.bitcoincore.core.IHasher
+import io.definenulls.bitcoincore.utils.HashUtils
+import io.definenulls.dashkit.IMerkleHasher
 
 class MerkleRootHasher: IHasher, IMerkleHasher {
 

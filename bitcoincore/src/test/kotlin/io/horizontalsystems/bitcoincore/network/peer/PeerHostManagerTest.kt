@@ -1,12 +1,12 @@
-package io.horizontalsystems.bitcoincore.network.peer
+package io.definenulls.bitcoincore.network.peer
 
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.verify
 import com.nhaarman.mockitokotlin2.verifyNoMoreInteractions
 import com.nhaarman.mockitokotlin2.whenever
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.models.PeerAddress
-import io.horizontalsystems.bitcoincore.network.Network
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.models.PeerAddress
+import io.definenulls.bitcoincore.network.Network
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test

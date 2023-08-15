@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.core.AccountWallet
-import io.horizontalsystems.bitcoincore.core.Wallet
-import io.horizontalsystems.bitcoincore.core.WatchAccountWallet
-import io.horizontalsystems.bitcoincore.models.PublicKey
+import io.definenulls.bitcoincore.core.AccountWallet
+import io.definenulls.bitcoincore.core.Wallet
+import io.definenulls.bitcoincore.core.WatchAccountWallet
+import io.definenulls.bitcoincore.models.PublicKey
 
 
 interface IPublicKeyFetcher {

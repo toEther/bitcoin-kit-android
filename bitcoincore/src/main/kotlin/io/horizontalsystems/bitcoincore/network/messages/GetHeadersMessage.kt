@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.network.messages
+package io.definenulls.bitcoincore.network.messages
 
-import io.horizontalsystems.bitcoincore.extensions.toReversedHex
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.extensions.toReversedHex
+import io.definenulls.bitcoincore.io.BitcoinOutput
 
 class GetHeadersMessage(var version: Int, var hashes: List<ByteArray>, var hashStop: ByteArray) : IMessage {
     override fun toString(): String {

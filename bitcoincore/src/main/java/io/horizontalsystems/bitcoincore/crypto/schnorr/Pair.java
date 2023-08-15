@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.crypto.schnorr;
+package io.definenulls.bitcoincore.crypto.schnorr;
 
 public class Pair<K, V> {
 

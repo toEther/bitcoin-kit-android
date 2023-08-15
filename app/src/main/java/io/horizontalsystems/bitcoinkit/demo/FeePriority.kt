@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoinkit.demo
+package io.definenulls.bitcoinkit.demo
 
 sealed class FeePriority(val feeRate: Int) {
     object Low : FeePriority(5)

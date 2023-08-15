@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoinkit.demo
+package io.definenulls.bitcoinkit.demo
 
 import androidx.lifecycle.Observer
 import android.os.Bundle
@@ -14,9 +14,9 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bitcoincore.exceptions.AddressFormatException
-import io.horizontalsystems.bitcoincore.managers.SendValueErrors
-import io.horizontalsystems.hodler.LockTimeInterval
+import io.definenulls.bitcoincore.exceptions.AddressFormatException
+import io.definenulls.bitcoincore.managers.SendValueErrors
+import io.definenulls.hodler.LockTimeInterval
 import kotlinx.android.synthetic.main.fragment_send_receive.*
 
 class SendReceiveFragment : Fragment() {

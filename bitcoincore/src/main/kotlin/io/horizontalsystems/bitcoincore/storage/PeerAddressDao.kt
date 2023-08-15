@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.storage
+package io.definenulls.bitcoincore.storage
 
 import androidx.room.*
-import io.horizontalsystems.bitcoincore.models.PeerAddress
+import io.definenulls.bitcoincore.models.PeerAddress
 
 @Dao
 interface PeerAddressDao {

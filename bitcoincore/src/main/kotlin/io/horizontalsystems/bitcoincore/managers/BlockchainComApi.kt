@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
 import com.eclipsesource.json.JsonValue
-import io.horizontalsystems.bitcoincore.core.IInitialSyncApi
+import io.definenulls.bitcoincore.core.IInitialSyncApi
 import java.lang.Integer.min
 import java.util.concurrent.Callable
 import java.util.concurrent.Executors

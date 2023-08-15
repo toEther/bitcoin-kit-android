@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.blocks.validators
+package io.definenulls.bitcoincore.blocks.validators
 
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.models.Block
 
 class LegacyTestNetDifficultyValidator(
         private val storage: IStorage,

@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincash.blocks.validators
+package io.definenulls.bitcoincash.blocks.validators
 
-import io.horizontalsystems.bitcoincash.blocks.AsertAlgorithm
-import io.horizontalsystems.bitcoincore.blocks.validators.BlockValidatorException
-import io.horizontalsystems.bitcoincore.blocks.validators.IBlockChainedValidator
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincash.blocks.AsertAlgorithm
+import io.definenulls.bitcoincore.blocks.validators.BlockValidatorException
+import io.definenulls.bitcoincore.blocks.validators.IBlockChainedValidator
+import io.definenulls.bitcoincore.models.Block
 
 class AsertValidator : IBlockChainedValidator {
     private val anchorBlockHeight = 661647

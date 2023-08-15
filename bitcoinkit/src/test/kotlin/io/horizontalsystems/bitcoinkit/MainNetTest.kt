@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoinkit
+package io.definenulls.bitcoinkit
 
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test

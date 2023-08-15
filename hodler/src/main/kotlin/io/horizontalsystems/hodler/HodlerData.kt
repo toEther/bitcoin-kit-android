@@ -1,5 +1,5 @@
-package io.horizontalsystems.hodler
+package io.definenulls.hodler
 
-import io.horizontalsystems.bitcoincore.core.IPluginData
+import io.definenulls.bitcoincore.core.IPluginData
 
 data class HodlerData(val lockTimeInterval: LockTimeInterval) : IPluginData

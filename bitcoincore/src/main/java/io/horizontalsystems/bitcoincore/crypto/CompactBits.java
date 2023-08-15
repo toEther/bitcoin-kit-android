@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.crypto;
+package io.definenulls.bitcoincore.crypto;
 
 import java.math.BigInteger;
 
-import io.horizontalsystems.bitcoincore.utils.Utils;
+import io.definenulls.bitcoincore.utils.Utils;
 
 public class CompactBits {
 

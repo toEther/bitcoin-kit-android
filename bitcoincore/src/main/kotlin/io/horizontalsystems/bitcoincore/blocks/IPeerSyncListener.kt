@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.blocks
+package io.definenulls.bitcoincore.blocks
 
-import io.horizontalsystems.bitcoincore.network.peer.Peer
+import io.definenulls.bitcoincore.network.peer.Peer
 
 interface IPeerSyncListener {
     fun onAllPeersSynced() = Unit

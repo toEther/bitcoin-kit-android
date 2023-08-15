@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.crypto.schnorr;
+package io.definenulls.bitcoincore.crypto.schnorr;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;

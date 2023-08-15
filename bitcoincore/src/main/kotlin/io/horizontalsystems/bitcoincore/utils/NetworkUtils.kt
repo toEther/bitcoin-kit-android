@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.utils
+package io.definenulls.bitcoincore.utils
 
-import io.horizontalsystems.bitcoincore.extensions.toHexString
+import io.definenulls.bitcoincore.extensions.toHexString
 import java.net.*
 
 object NetworkUtils {

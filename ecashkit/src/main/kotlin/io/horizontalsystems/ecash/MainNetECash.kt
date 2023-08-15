@@ -1,7 +1,7 @@
-package io.horizontalsystems.ecash
+package io.definenulls.ecash
 
-import io.horizontalsystems.bitcoincore.network.Network
-import io.horizontalsystems.bitcoincore.transactions.scripts.Sighash
+import io.definenulls.bitcoincore.network.Network
+import io.definenulls.bitcoincore.transactions.scripts.Sighash
 import kotlin.experimental.or
 
 class MainNetECash : Network() {

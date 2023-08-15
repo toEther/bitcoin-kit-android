@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincash.blocks.validators
+package io.definenulls.bitcoincash.blocks.validators
 
 import com.nhaarman.mockito_kotlin.mock
 import com.nhaarman.mockito_kotlin.whenever
-import io.horizontalsystems.bitcoincore.blocks.validators.BlockValidatorException
-import io.horizontalsystems.bitcoincore.blocks.validators.IBlockValidator
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincore.blocks.validators.BlockValidatorException
+import io.definenulls.bitcoincore.blocks.validators.IBlockValidator
+import io.definenulls.bitcoincore.models.Block
 import org.junit.Assert
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.assertThrows

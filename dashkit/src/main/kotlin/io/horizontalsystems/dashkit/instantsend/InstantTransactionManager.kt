@@ -1,12 +1,12 @@
-package io.horizontalsystems.dashkit.instantsend
+package io.definenulls.dashkit.instantsend
 
-import io.horizontalsystems.bitcoincore.models.TransactionInput
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
-import io.horizontalsystems.dashkit.DashKitErrors
-import io.horizontalsystems.dashkit.IDashStorage
-import io.horizontalsystems.dashkit.InstantSend
-import io.horizontalsystems.dashkit.models.InstantTransactionInput
-import io.horizontalsystems.dashkit.models.InstantTransactionState
+import io.definenulls.bitcoincore.models.TransactionInput
+import io.definenulls.bitcoincore.storage.FullTransaction
+import io.definenulls.dashkit.DashKitErrors
+import io.definenulls.dashkit.IDashStorage
+import io.definenulls.dashkit.InstantSend
+import io.definenulls.dashkit.models.InstantTransactionInput
+import io.definenulls.dashkit.models.InstantTransactionState
 
 class InstantTransactionManager(
         private val storage: IDashStorage,

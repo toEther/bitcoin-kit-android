@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.blocks
+package io.definenulls.bitcoincore.blocks
 
-import io.horizontalsystems.bitcoincore.core.HashBytes
-import io.horizontalsystems.bitcoincore.models.MerkleBlock
-import io.horizontalsystems.bitcoincore.network.messages.MerkleBlockMessage
-import io.horizontalsystems.bitcoincore.utils.MerkleBranch
+import io.definenulls.bitcoincore.core.HashBytes
+import io.definenulls.bitcoincore.models.MerkleBlock
+import io.definenulls.bitcoincore.network.messages.MerkleBlockMessage
+import io.definenulls.bitcoincore.utils.MerkleBranch
 
 class MerkleBlockExtractor(private val maxBlockSize: Int) {
 

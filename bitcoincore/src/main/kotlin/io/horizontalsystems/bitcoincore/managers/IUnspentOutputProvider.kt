@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.storage.UnspentOutput
+import io.definenulls.bitcoincore.storage.UnspentOutput
 
 interface IUnspentOutputProvider {
     fun getSpendableUtxo(): List<UnspentOutput>

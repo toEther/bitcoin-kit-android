@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.message
+package io.definenulls.bitcoincore.message
 
-import io.horizontalsystems.bitcoincore.extensions.toHexString
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.network.messages.TransactionMessage
-import io.horizontalsystems.bitcoincore.network.messages.TransactionMessageParser
+import io.definenulls.bitcoincore.extensions.toHexString
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.network.messages.TransactionMessage
+import io.definenulls.bitcoincore.network.messages.TransactionMessageParser
 import org.junit.Assert.assertEquals
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe

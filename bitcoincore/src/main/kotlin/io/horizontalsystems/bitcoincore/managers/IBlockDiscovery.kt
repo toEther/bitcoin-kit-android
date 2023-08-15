@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.models.BlockHash
-import io.horizontalsystems.bitcoincore.models.PublicKey
+import io.definenulls.bitcoincore.models.BlockHash
+import io.definenulls.bitcoincore.models.PublicKey
 import io.reactivex.Single
 
 interface IBlockDiscovery {

@@ -1,7 +1,7 @@
-package io.horizontalsystems.dashkit
+package io.definenulls.dashkit
 
 import fr.cryptohash.*
-import io.horizontalsystems.bitcoincore.core.IHasher
+import io.definenulls.bitcoincore.core.IHasher
 import java.util.*
 
 class X11Hasher : IHasher {

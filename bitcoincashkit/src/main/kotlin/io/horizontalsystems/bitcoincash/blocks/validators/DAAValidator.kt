@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincash.blocks.validators
+package io.definenulls.bitcoincash.blocks.validators
 
-import io.horizontalsystems.bitcoincash.blocks.BitcoinCashBlockValidatorHelper
-import io.horizontalsystems.bitcoincore.blocks.validators.BlockValidatorException
-import io.horizontalsystems.bitcoincore.blocks.validators.IBlockChainedValidator
-import io.horizontalsystems.bitcoincore.crypto.CompactBits
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincash.blocks.BitcoinCashBlockValidatorHelper
+import io.definenulls.bitcoincore.blocks.validators.BlockValidatorException
+import io.definenulls.bitcoincore.blocks.validators.IBlockChainedValidator
+import io.definenulls.bitcoincore.crypto.CompactBits
+import io.definenulls.bitcoincore.models.Block
 
 class DAAValidator(
         private val targetSpacing: Int,

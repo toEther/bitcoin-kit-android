@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.utils
+package io.definenulls.bitcoincore.utils
 
-import io.horizontalsystems.bitcoincore.blocks.InvalidMerkleBlockException
-import io.horizontalsystems.bitcoincore.core.HashBytes
+import io.definenulls.bitcoincore.blocks.InvalidMerkleBlockException
+import io.definenulls.bitcoincore.core.HashBytes
 
 class MerkleBranch {
     private var txCount = 0

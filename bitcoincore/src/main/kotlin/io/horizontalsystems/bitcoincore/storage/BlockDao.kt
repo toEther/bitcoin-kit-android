@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.storage
+package io.definenulls.bitcoincore.storage
 
 import androidx.room.*
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincore.models.Block
 
 @Dao
 interface BlockDao {

@@ -1,10 +1,10 @@
-package io.horizontalsystems.dashkit.instantsend.transactionlockvote
+package io.definenulls.dashkit.instantsend.transactionlockvote
 
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
-import io.horizontalsystems.dashkit.IInstantTransactionDelegate
-import io.horizontalsystems.dashkit.instantsend.InstantTransactionManager
-import io.horizontalsystems.dashkit.messages.TransactionLockVoteMessage
-import io.horizontalsystems.dashkit.models.InstantTransactionInput
+import io.definenulls.bitcoincore.storage.FullTransaction
+import io.definenulls.dashkit.IInstantTransactionDelegate
+import io.definenulls.dashkit.instantsend.InstantTransactionManager
+import io.definenulls.dashkit.messages.TransactionLockVoteMessage
+import io.definenulls.dashkit.models.InstantTransactionInput
 import java.util.logging.Logger
 
 class TransactionLockVoteHandler(

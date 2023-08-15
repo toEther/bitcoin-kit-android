@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.models
+package io.definenulls.bitcoincore.models
 
 data class BitcoinPaymentData(
         val address: String,

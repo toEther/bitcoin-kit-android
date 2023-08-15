@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.transactions
+package io.definenulls.bitcoincore.transactions
 
-import io.horizontalsystems.bitcoincore.core.IPublicKeyManager
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.managers.BloomFilterManager
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.core.IPublicKeyManager
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.managers.BloomFilterManager
+import io.definenulls.bitcoincore.storage.FullTransaction
 
 class TransactionSyncer(
     private val storage: IStorage,

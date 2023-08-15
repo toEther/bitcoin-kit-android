@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.transactions.builder
+package io.definenulls.bitcoincore.transactions.builder
 
-import io.horizontalsystems.bitcoincore.models.Address
-import io.horizontalsystems.bitcoincore.models.Transaction
-import io.horizontalsystems.bitcoincore.models.TransactionOutput
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
-import io.horizontalsystems.bitcoincore.storage.InputToSign
+import io.definenulls.bitcoincore.models.Address
+import io.definenulls.bitcoincore.models.Transaction
+import io.definenulls.bitcoincore.models.TransactionOutput
+import io.definenulls.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.storage.InputToSign
 
 class MutableTransaction(isOutgoing: Boolean = true) {
 

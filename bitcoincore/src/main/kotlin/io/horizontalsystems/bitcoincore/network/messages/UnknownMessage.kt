@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.network.messages
+package io.definenulls.bitcoincore.network.messages
 
 class UnknownMessage(val command: String) : IMessage {
     override fun toString(): String {

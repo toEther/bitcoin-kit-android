@@ -1,12 +1,12 @@
-package io.horizontalsystems.dashkit.tasks
+package io.definenulls.dashkit.tasks
 
-import io.horizontalsystems.bitcoincore.models.InventoryItem
-import io.horizontalsystems.bitcoincore.network.messages.GetDataMessage
-import io.horizontalsystems.bitcoincore.network.messages.IMessage
-import io.horizontalsystems.bitcoincore.network.peer.task.PeerTask
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
-import io.horizontalsystems.dashkit.InventoryType
-import io.horizontalsystems.dashkit.messages.TransactionLockMessage
+import io.definenulls.bitcoincore.models.InventoryItem
+import io.definenulls.bitcoincore.network.messages.GetDataMessage
+import io.definenulls.bitcoincore.network.messages.IMessage
+import io.definenulls.bitcoincore.network.peer.task.PeerTask
+import io.definenulls.bitcoincore.storage.FullTransaction
+import io.definenulls.dashkit.InventoryType
+import io.definenulls.dashkit.messages.TransactionLockMessage
 
 class RequestTransactionLockRequestsTask(hashes: List<ByteArray>) : PeerTask() {
 

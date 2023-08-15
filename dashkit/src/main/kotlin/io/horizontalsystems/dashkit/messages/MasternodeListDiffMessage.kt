@@ -1,12 +1,12 @@
-package io.horizontalsystems.dashkit.messages
+package io.definenulls.dashkit.messages
 
-import io.horizontalsystems.bitcoincore.extensions.toReversedHex
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.network.messages.IMessage
-import io.horizontalsystems.bitcoincore.network.messages.IMessageParser
-import io.horizontalsystems.dashkit.models.CoinbaseTransaction
-import io.horizontalsystems.dashkit.models.Masternode
-import io.horizontalsystems.dashkit.models.Quorum
+import io.definenulls.bitcoincore.extensions.toReversedHex
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.network.messages.IMessage
+import io.definenulls.bitcoincore.network.messages.IMessageParser
+import io.definenulls.dashkit.models.CoinbaseTransaction
+import io.definenulls.dashkit.models.Masternode
+import io.definenulls.dashkit.models.Quorum
 
 class MasternodeListDiffMessage(
     val baseBlockHash: ByteArray,

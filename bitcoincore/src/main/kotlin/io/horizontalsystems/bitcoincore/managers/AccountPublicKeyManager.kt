@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.core.IAccountWallet
-import io.horizontalsystems.bitcoincore.core.IPublicKeyManager
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.models.PublicKey
-import io.horizontalsystems.bitcoincore.storage.PublicKeyWithUsedState
+import io.definenulls.bitcoincore.core.IAccountWallet
+import io.definenulls.bitcoincore.core.IPublicKeyManager
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.models.PublicKey
+import io.definenulls.bitcoincore.storage.PublicKeyWithUsedState
 
 class AccountPublicKeyManager(
     private val storage: IStorage,

@@ -1,10 +1,10 @@
-package io.horizontalsystems.litecoinkit.validators
+package io.definenulls.litecoinkit.validators
 
-import io.horizontalsystems.bitcoincore.blocks.validators.BlockValidatorException
-import io.horizontalsystems.bitcoincore.blocks.validators.IBlockChainedValidator
-import io.horizontalsystems.bitcoincore.crypto.CompactBits
-import io.horizontalsystems.bitcoincore.managers.BlockValidatorHelper
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincore.blocks.validators.BlockValidatorException
+import io.definenulls.bitcoincore.blocks.validators.IBlockChainedValidator
+import io.definenulls.bitcoincore.crypto.CompactBits
+import io.definenulls.bitcoincore.managers.BlockValidatorHelper
+import io.definenulls.bitcoincore.models.Block
 import java.math.BigInteger
 import kotlin.math.min
 

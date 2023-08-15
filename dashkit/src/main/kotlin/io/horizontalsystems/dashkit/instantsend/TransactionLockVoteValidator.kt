@@ -1,8 +1,8 @@
-package io.horizontalsystems.dashkit.instantsend
+package io.definenulls.dashkit.instantsend
 
-import io.horizontalsystems.bitcoincore.core.IHasher
-import io.horizontalsystems.dashkit.DashKitErrors
-import io.horizontalsystems.dashkit.IDashStorage
+import io.definenulls.bitcoincore.core.IHasher
+import io.definenulls.dashkit.DashKitErrors
+import io.definenulls.dashkit.IDashStorage
 
 class TransactionLockVoteValidator(private val storage: IDashStorage, private val hasher: IHasher, private val bls: BLS) {
 

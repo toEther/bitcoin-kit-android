@@ -1,13 +1,13 @@
-package io.horizontalsystems.bitcoincore.transactions
+package io.definenulls.bitcoincore.transactions
 
 import com.nhaarman.mockitokotlin2.doReturn
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.whenever
-import io.horizontalsystems.bitcoincore.blocks.InitialBlockDownload
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.network.peer.Peer
-import io.horizontalsystems.bitcoincore.network.peer.PeerGroup
-import io.horizontalsystems.bitcoincore.network.peer.PeerManager
+import io.definenulls.bitcoincore.blocks.InitialBlockDownload
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.network.peer.Peer
+import io.definenulls.bitcoincore.network.peer.PeerGroup
+import io.definenulls.bitcoincore.network.peer.PeerManager
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Assertions.fail
 import org.spekframework.spek2.Spek

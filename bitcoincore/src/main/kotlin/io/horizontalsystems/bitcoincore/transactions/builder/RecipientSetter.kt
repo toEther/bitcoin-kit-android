@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.transactions.builder
+package io.definenulls.bitcoincore.transactions.builder
 
-import io.horizontalsystems.bitcoincore.core.IPluginData
-import io.horizontalsystems.bitcoincore.core.IRecipientSetter
-import io.horizontalsystems.bitcoincore.core.PluginManager
-import io.horizontalsystems.bitcoincore.transactions.builder.MutableTransaction
-import io.horizontalsystems.bitcoincore.utils.IAddressConverter
+import io.definenulls.bitcoincore.core.IPluginData
+import io.definenulls.bitcoincore.core.IRecipientSetter
+import io.definenulls.bitcoincore.core.PluginManager
+import io.definenulls.bitcoincore.transactions.builder.MutableTransaction
+import io.definenulls.bitcoincore.utils.IAddressConverter
 
 class RecipientSetter(
         private val addressConverter: IAddressConverter,

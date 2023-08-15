@@ -1,9 +1,9 @@
-package io.horizontalsystems.dashkit.tasks
+package io.definenulls.dashkit.tasks
 
-import io.horizontalsystems.bitcoincore.network.messages.IMessage
-import io.horizontalsystems.bitcoincore.network.peer.task.PeerTask
-import io.horizontalsystems.dashkit.messages.GetMasternodeListDiffMessage
-import io.horizontalsystems.dashkit.messages.MasternodeListDiffMessage
+import io.definenulls.bitcoincore.network.messages.IMessage
+import io.definenulls.bitcoincore.network.peer.task.PeerTask
+import io.definenulls.dashkit.messages.GetMasternodeListDiffMessage
+import io.definenulls.dashkit.messages.MasternodeListDiffMessage
 import java.util.concurrent.TimeUnit
 
 class RequestMasternodeListDiffTask(private val baseBlockHash: ByteArray, private val blockHash: ByteArray) : PeerTask() {

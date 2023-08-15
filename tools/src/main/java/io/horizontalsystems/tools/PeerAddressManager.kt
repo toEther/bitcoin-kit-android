@@ -1,11 +1,11 @@
-package io.horizontalsystems.tools
+package io.definenulls.tools
 
-import io.horizontalsystems.bitcoincore.core.IPeerAddressManager
-import io.horizontalsystems.bitcoincore.core.IPeerAddressManagerListener
-import io.horizontalsystems.bitcoincore.models.PeerAddress
-import io.horizontalsystems.bitcoincore.network.Network
-import io.horizontalsystems.bitcoincore.network.peer.Peer
-import io.horizontalsystems.bitcoincore.network.peer.PeerDiscover
+import io.definenulls.bitcoincore.core.IPeerAddressManager
+import io.definenulls.bitcoincore.core.IPeerAddressManagerListener
+import io.definenulls.bitcoincore.models.PeerAddress
+import io.definenulls.bitcoincore.network.Network
+import io.definenulls.bitcoincore.network.peer.Peer
+import io.definenulls.bitcoincore.network.peer.PeerDiscover
 import java.util.concurrent.CopyOnWriteArrayList
 
 class PeerAddressManager(private val network: Network) : IPeerAddressManager {

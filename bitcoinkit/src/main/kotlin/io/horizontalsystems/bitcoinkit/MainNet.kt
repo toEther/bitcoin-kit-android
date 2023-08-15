@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoinkit
+package io.definenulls.bitcoinkit
 
-import io.horizontalsystems.bitcoincore.network.Network
+import io.definenulls.bitcoincore.network.Network
 
 /**
  *   Extends from the abstract Network class and overrides all variables. Configures connection to the MainNet.

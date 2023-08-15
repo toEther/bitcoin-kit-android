@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.serializers
+package io.definenulls.bitcoincore.serializers
 
-import io.horizontalsystems.bitcoincore.core.IHasher
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.storage.BlockHeader
+import io.definenulls.bitcoincore.core.IHasher
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.storage.BlockHeader
 
 class BlockHeaderParser(private val hasher: IHasher) {
 

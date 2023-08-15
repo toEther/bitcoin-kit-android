@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.blocks.validators
+package io.definenulls.bitcoincore.blocks.validators
 
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.whenever
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincore.models.Block
 import org.junit.jupiter.api.Assertions.assertDoesNotThrow
 import org.junit.jupiter.api.assertThrows
 import org.spekframework.spek2.Spek

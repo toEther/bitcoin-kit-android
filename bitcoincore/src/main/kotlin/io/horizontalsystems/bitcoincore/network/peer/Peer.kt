@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.network.peer
+package io.definenulls.bitcoincore.network.peer
 
-import io.horizontalsystems.bitcoincore.crypto.BloomFilter
-import io.horizontalsystems.bitcoincore.network.Network
-import io.horizontalsystems.bitcoincore.network.messages.*
-import io.horizontalsystems.bitcoincore.network.peer.task.PeerTask
+import io.definenulls.bitcoincore.crypto.BloomFilter
+import io.definenulls.bitcoincore.network.Network
+import io.definenulls.bitcoincore.network.messages.*
+import io.definenulls.bitcoincore.network.peer.task.PeerTask
 import java.net.InetAddress
 import java.util.concurrent.ExecutorService
 

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoinkit.demo
+package io.definenulls.bitcoinkit.demo
 
 import java.text.NumberFormat
 

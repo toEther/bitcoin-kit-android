@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.network.messages
+package io.definenulls.bitcoincore.network.messages
 
-import io.horizontalsystems.bitcoincore.core.IHasher
-import io.horizontalsystems.bitcoincore.extensions.toReversedHex
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
-import io.horizontalsystems.bitcoincore.storage.BlockHeader
+import io.definenulls.bitcoincore.core.IHasher
+import io.definenulls.bitcoincore.extensions.toReversedHex
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.storage.BlockHeader
 
 class HeadersMessage(val headers: Array<BlockHeader>) : IMessage {
     override fun toString(): String {

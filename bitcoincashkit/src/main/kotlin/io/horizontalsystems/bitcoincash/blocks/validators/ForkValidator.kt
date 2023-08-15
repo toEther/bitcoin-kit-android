@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincash.blocks.validators
+package io.definenulls.bitcoincash.blocks.validators
 
-import io.horizontalsystems.bitcoincore.blocks.validators.BlockValidatorException
-import io.horizontalsystems.bitcoincore.blocks.validators.IBlockChainedValidator
-import io.horizontalsystems.bitcoincore.blocks.validators.IBlockValidator
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincore.blocks.validators.BlockValidatorException
+import io.definenulls.bitcoincore.blocks.validators.IBlockChainedValidator
+import io.definenulls.bitcoincore.blocks.validators.IBlockValidator
+import io.definenulls.bitcoincore.models.Block
 
 class ForkValidator(
         private val forkHeight: Int,

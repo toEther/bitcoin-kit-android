@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.transactions.builder
+package io.definenulls.bitcoincore.transactions.builder
 
-import io.horizontalsystems.bitcoincore.transactions.scripts.OpCodes
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.transactions.scripts.OpCodes
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 
 class TransactionSigner(
     private val ecdsaInputSigner: EcdsaInputSigner,

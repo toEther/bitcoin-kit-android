@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.storage
+package io.definenulls.bitcoincore.storage
 
 import androidx.sqlite.db.SupportSQLiteDatabase
 import androidx.room.Database
@@ -7,8 +7,8 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.room.migration.Migration
 import android.content.Context
-import io.horizontalsystems.bitcoincore.models.*
-import io.horizontalsystems.bitcoincore.storage.migrations.*
+import io.definenulls.bitcoincore.models.*
+import io.definenulls.bitcoincore.storage.migrations.*
 
 @Database(version = 16, exportSchema = false, entities = [
     BlockchainState::class,

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.transactions
+package io.definenulls.bitcoincore.transactions
 
-import io.horizontalsystems.bitcoincore.models.TransactionOutput
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType.*
+import io.definenulls.bitcoincore.models.TransactionOutput
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType.*
 import org.junit.Assert.assertEquals
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe

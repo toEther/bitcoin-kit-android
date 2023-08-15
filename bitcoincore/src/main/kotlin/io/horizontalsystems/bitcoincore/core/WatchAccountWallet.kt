@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.core
+package io.definenulls.bitcoincore.core
 
-import io.horizontalsystems.bitcoincore.models.PublicKey
-import io.horizontalsystems.hdwalletkit.HDWallet
-import io.horizontalsystems.hdwalletkit.HDWalletAccountWatch
+import io.definenulls.bitcoincore.models.PublicKey
+import io.definenulls.hdwalletkit.HDWallet
+import io.definenulls.hdwalletkit.HDWalletAccountWatch
 
 class WatchAccountWallet(private val hdWallet: HDWalletAccountWatch, override val gapLimit: Int): IAccountWallet {
 

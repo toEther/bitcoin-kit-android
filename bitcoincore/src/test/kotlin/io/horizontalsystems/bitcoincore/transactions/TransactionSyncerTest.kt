@@ -1,11 +1,11 @@
-package io.horizontalsystems.bitcoincore.transactions
+package io.definenulls.bitcoincore.transactions
 
 import com.nhaarman.mockitokotlin2.*
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.managers.BloomFilterManager
-import io.horizontalsystems.bitcoincore.managers.PublicKeyManager
-import io.horizontalsystems.bitcoincore.models.Transaction
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.managers.BloomFilterManager
+import io.definenulls.bitcoincore.managers.PublicKeyManager
+import io.definenulls.bitcoincore.models.Transaction
+import io.definenulls.bitcoincore.storage.FullTransaction
 import org.mockito.Mockito.mock
 import org.mockito.Mockito.reset
 import org.spekframework.spek2.Spek

@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.network.messages
+package io.definenulls.bitcoincore.network.messages
 
-import io.horizontalsystems.bitcoincore.extensions.toReversedHex
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.serializers.TransactionSerializer
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.extensions.toReversedHex
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.serializers.TransactionSerializer
+import io.definenulls.bitcoincore.storage.FullTransaction
 
 class TransactionMessage(var transaction: FullTransaction, val size: Int) : IMessage {
     override fun toString(): String {

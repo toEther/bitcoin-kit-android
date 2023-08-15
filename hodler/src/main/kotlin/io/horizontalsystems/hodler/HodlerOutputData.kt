@@ -1,6 +1,6 @@
-package io.horizontalsystems.hodler
+package io.definenulls.hodler
 
-import io.horizontalsystems.bitcoincore.core.IPluginOutputData
+import io.definenulls.bitcoincore.core.IPluginOutputData
 
 class HodlerOutputData(val lockTimeInterval: LockTimeInterval,
                        val addressString: String) : IPluginOutputData {

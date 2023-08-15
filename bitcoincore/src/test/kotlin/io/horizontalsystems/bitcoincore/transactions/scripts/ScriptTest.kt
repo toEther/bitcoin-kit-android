@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.transactions.scripts
+package io.definenulls.bitcoincore.transactions.scripts
 
-import io.horizontalsystems.bitcoincore.extensions.hexToByteArray
+import io.definenulls.bitcoincore.extensions.hexToByteArray
 import org.junit.Assert.assertEquals
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe

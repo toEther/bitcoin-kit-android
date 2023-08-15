@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.models
+package io.definenulls.bitcoincore.models
 
-import io.horizontalsystems.bitcoincore.core.HashBytes
-import io.horizontalsystems.bitcoincore.storage.BlockHeader
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.core.HashBytes
+import io.definenulls.bitcoincore.storage.BlockHeader
+import io.definenulls.bitcoincore.storage.FullTransaction
 
 class MerkleBlock(val header: BlockHeader, val associatedTransactionHashes: Map<HashBytes, Boolean>) {
 

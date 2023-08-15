@@ -1,8 +1,8 @@
-package io.horizontalsystems.dashkit
+package io.definenulls.dashkit
 
-import io.horizontalsystems.bitcoincore.models.Block
-import io.horizontalsystems.bitcoincore.models.TransactionInput
-import io.horizontalsystems.dashkit.models.*
+import io.definenulls.bitcoincore.models.Block
+import io.definenulls.bitcoincore.models.TransactionInput
+import io.definenulls.dashkit.models.*
 
 interface IDashStorage {
     fun getBlock(blockHash: ByteArray): Block?

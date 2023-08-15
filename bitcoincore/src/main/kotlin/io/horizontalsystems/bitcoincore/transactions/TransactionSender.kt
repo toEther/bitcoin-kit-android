@@ -1,15 +1,15 @@
-package io.horizontalsystems.bitcoincore.transactions
+package io.definenulls.bitcoincore.transactions
 
-import io.horizontalsystems.bitcoincore.blocks.InitialBlockDownload
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.models.SentTransaction
-import io.horizontalsystems.bitcoincore.network.peer.IPeerTaskHandler
-import io.horizontalsystems.bitcoincore.network.peer.Peer
-import io.horizontalsystems.bitcoincore.network.peer.PeerGroup
-import io.horizontalsystems.bitcoincore.network.peer.PeerManager
-import io.horizontalsystems.bitcoincore.network.peer.task.PeerTask
-import io.horizontalsystems.bitcoincore.network.peer.task.SendTransactionTask
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.blocks.InitialBlockDownload
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.models.SentTransaction
+import io.definenulls.bitcoincore.network.peer.IPeerTaskHandler
+import io.definenulls.bitcoincore.network.peer.Peer
+import io.definenulls.bitcoincore.network.peer.PeerGroup
+import io.definenulls.bitcoincore.network.peer.PeerManager
+import io.definenulls.bitcoincore.network.peer.task.PeerTask
+import io.definenulls.bitcoincore.network.peer.task.SendTransactionTask
+import io.definenulls.bitcoincore.storage.FullTransaction
 
 class TransactionSender(
         private val transactionSyncer: TransactionSyncer,

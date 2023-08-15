@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.models
+package io.definenulls.bitcoincore.models
 
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.TypeConverters
-import io.horizontalsystems.bitcoincore.storage.WitnessConverter
+import io.definenulls.bitcoincore.storage.WitnessConverter
 
 /**
  * Transaction input

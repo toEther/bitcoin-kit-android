@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.serializers
+package io.definenulls.bitcoincore.serializers
 
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
-import io.horizontalsystems.bitcoincore.models.TransactionOutput
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.models.TransactionOutput
 
 object OutputSerializer {
     fun deserialize(input: BitcoinInputMarkable, vout: Long): TransactionOutput {

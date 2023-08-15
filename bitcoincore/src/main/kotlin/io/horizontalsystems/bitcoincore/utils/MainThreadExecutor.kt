@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.utils
+package io.definenulls.bitcoincore.utils
 
 import android.os.Handler
 import android.os.Looper

@@ -1,4 +1,4 @@
-package io.horizontalsystems.dashkit
+package io.definenulls.dashkit
 
 object InventoryType {
     const val MSG_TXLOCK_REQUEST = 4

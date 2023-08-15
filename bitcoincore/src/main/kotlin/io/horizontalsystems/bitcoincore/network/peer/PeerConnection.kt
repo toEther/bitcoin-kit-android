@@ -1,11 +1,11 @@
-package io.horizontalsystems.bitcoincore.network.peer
+package io.definenulls.bitcoincore.network.peer
 
-import io.horizontalsystems.bitcoincore.io.BitcoinInput
-import io.horizontalsystems.bitcoincore.network.Network
-import io.horizontalsystems.bitcoincore.network.messages.IMessage
-import io.horizontalsystems.bitcoincore.network.messages.NetworkMessageParser
-import io.horizontalsystems.bitcoincore.network.messages.NetworkMessageSerializer
-import io.horizontalsystems.bitcoincore.utils.NetworkUtils
+import io.definenulls.bitcoincore.io.BitcoinInput
+import io.definenulls.bitcoincore.network.Network
+import io.definenulls.bitcoincore.network.messages.IMessage
+import io.definenulls.bitcoincore.network.messages.NetworkMessageParser
+import io.definenulls.bitcoincore.network.messages.NetworkMessageSerializer
+import io.definenulls.bitcoincore.utils.NetworkUtils
 import java.io.InputStream
 import java.io.OutputStream
 import java.net.InetAddress

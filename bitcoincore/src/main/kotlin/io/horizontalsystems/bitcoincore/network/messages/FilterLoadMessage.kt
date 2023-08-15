@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.network.messages
+package io.definenulls.bitcoincore.network.messages
 
-import io.horizontalsystems.bitcoincore.crypto.BloomFilter
+import io.definenulls.bitcoincore.crypto.BloomFilter
 
 class FilterLoadMessage(bloomFilter: BloomFilter) : IMessage {
     var filter: BloomFilter = bloomFilter

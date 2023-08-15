@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoinkit
+package io.definenulls.bitcoinkit
 
-import io.horizontalsystems.bitcoincore.network.Network
+import io.definenulls.bitcoincore.network.Network
 /**
  *
  *

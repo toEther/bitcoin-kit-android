@@ -1,4 +1,4 @@
-package io.horizontalsystems.dashkit.models
+package io.definenulls.dashkit.models
 
 import androidx.room.Entity
 

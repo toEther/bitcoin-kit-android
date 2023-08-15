@@ -1,4 +1,4 @@
-package io.horizontalsystems.litecoinkit
+package io.definenulls.litecoinkit
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -17,6 +17,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("io.horizontalsystems.litecoinkit.test", appContext.packageName)
+        assertEquals("io.definenulls.litecoinkit.test", appContext.packageName)
     }
 }

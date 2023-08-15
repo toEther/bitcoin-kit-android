@@ -1,4 +1,4 @@
-package io.horizontalsystems.dashkit
+package io.definenulls.dashkit
 
 interface IMerkleHasher {
     fun hash(first: ByteArray, second: ByteArray) : ByteArray

@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.network.peer.task
+package io.definenulls.bitcoincore.network.peer.task
 
-import io.horizontalsystems.bitcoincore.network.messages.GetHeadersMessage
-import io.horizontalsystems.bitcoincore.network.messages.HeadersMessage
-import io.horizontalsystems.bitcoincore.network.messages.IMessage
-import io.horizontalsystems.bitcoincore.storage.BlockHeader
+import io.definenulls.bitcoincore.network.messages.GetHeadersMessage
+import io.definenulls.bitcoincore.network.messages.HeadersMessage
+import io.definenulls.bitcoincore.network.messages.IMessage
+import io.definenulls.bitcoincore.storage.BlockHeader
 
 class GetBlockHeadersTask(private val blockLocatorHashes: List<ByteArray>) : PeerTask() {
 

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.models
+package io.definenulls.bitcoincore.models
 
 import androidx.room.Entity
 import androidx.room.ForeignKey

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.transactions.extractors
+package io.definenulls.bitcoincore.transactions.extractors
 
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.models.*
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.models.*
+import io.definenulls.bitcoincore.storage.FullTransaction
 import kotlin.math.absoluteValue
 
 class TransactionMetadataExtractor(

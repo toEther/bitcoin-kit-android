@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.storage
+package io.definenulls.bitcoincore.storage
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import io.horizontalsystems.bitcoincore.models.TransactionMetadata
+import io.definenulls.bitcoincore.models.TransactionMetadata
 
 @Dao
 interface TransactionMetadataDao {

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoinkit.demo
+package io.definenulls.bitcoinkit.demo
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView

@@ -1,15 +1,15 @@
-package io.horizontalsystems.dashkit.managers
+package io.definenulls.dashkit.managers
 
-import io.horizontalsystems.bitcoincore.BitcoinCore
-import io.horizontalsystems.bitcoincore.blocks.IPeerSyncListener
-import io.horizontalsystems.bitcoincore.blocks.InitialBlockDownload
-import io.horizontalsystems.bitcoincore.extensions.toReversedByteArray
-import io.horizontalsystems.bitcoincore.network.peer.IPeerTaskHandler
-import io.horizontalsystems.bitcoincore.network.peer.Peer
-import io.horizontalsystems.bitcoincore.network.peer.PeerGroup
-import io.horizontalsystems.bitcoincore.network.peer.task.PeerTask
-import io.horizontalsystems.dashkit.tasks.PeerTaskFactory
-import io.horizontalsystems.dashkit.tasks.RequestMasternodeListDiffTask
+import io.definenulls.bitcoincore.BitcoinCore
+import io.definenulls.bitcoincore.blocks.IPeerSyncListener
+import io.definenulls.bitcoincore.blocks.InitialBlockDownload
+import io.definenulls.bitcoincore.extensions.toReversedByteArray
+import io.definenulls.bitcoincore.network.peer.IPeerTaskHandler
+import io.definenulls.bitcoincore.network.peer.Peer
+import io.definenulls.bitcoincore.network.peer.PeerGroup
+import io.definenulls.bitcoincore.network.peer.task.PeerTask
+import io.definenulls.dashkit.tasks.PeerTaskFactory
+import io.definenulls.dashkit.tasks.RequestMasternodeListDiffTask
 import java.util.concurrent.Executors
 
 class MasternodeListSyncer(

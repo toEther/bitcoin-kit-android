@@ -1,7 +1,7 @@
-package io.horizontalsystems.dashkit.instantsend.transactionlockvote
+package io.definenulls.dashkit.instantsend.transactionlockvote
 
-import io.horizontalsystems.dashkit.instantsend.TransactionLockVoteValidator
-import io.horizontalsystems.dashkit.messages.TransactionLockVoteMessage
+import io.definenulls.dashkit.instantsend.TransactionLockVoteValidator
+import io.definenulls.dashkit.messages.TransactionLockVoteMessage
 
 class TransactionLockVoteManager(private val transactionLockVoteValidator: TransactionLockVoteValidator) {
     val relayedLockVotes = mutableListOf<TransactionLockVoteMessage>()

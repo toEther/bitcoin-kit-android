@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.transactions.builder
+package io.definenulls.bitcoincore.transactions.builder
 
-import io.horizontalsystems.bitcoincore.core.ITransactionDataSorterFactory
-import io.horizontalsystems.bitcoincore.models.TransactionDataSortType
-import io.horizontalsystems.bitcoincore.models.TransactionOutput
-import io.horizontalsystems.bitcoincore.transactions.scripts.OP_RETURN
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.core.ITransactionDataSorterFactory
+import io.definenulls.bitcoincore.models.TransactionDataSortType
+import io.definenulls.bitcoincore.models.TransactionOutput
+import io.definenulls.bitcoincore.transactions.scripts.OP_RETURN
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 
 class OutputSetter(private val transactionDataSorterFactory: ITransactionDataSorterFactory) {
 

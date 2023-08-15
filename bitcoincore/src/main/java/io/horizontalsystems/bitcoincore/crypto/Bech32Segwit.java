@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package io.horizontalsystems.bitcoincore.crypto;
+package io.definenulls.bitcoincore.crypto;
 
 import java.io.ByteArrayOutputStream;
 import java.util.Arrays;
 import java.util.Locale;
 
-import io.horizontalsystems.bitcoincore.exceptions.AddressFormatException;
+import io.definenulls.bitcoincore.exceptions.AddressFormatException;
 
 public class Bech32Segwit extends Bech32 {
 

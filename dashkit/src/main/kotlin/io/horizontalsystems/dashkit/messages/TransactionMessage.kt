@@ -1,14 +1,14 @@
-package io.horizontalsystems.dashkit.messages
+package io.definenulls.dashkit.messages
 
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
-import io.horizontalsystems.bitcoincore.network.messages.IMessage
-import io.horizontalsystems.bitcoincore.network.messages.IMessageParser
-import io.horizontalsystems.bitcoincore.network.messages.TransactionMessage
-import io.horizontalsystems.bitcoincore.serializers.TransactionSerializer
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
-import io.horizontalsystems.bitcoincore.utils.HashUtils
-import io.horizontalsystems.dashkit.models.SpecialTransaction
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.network.messages.IMessage
+import io.definenulls.bitcoincore.network.messages.IMessageParser
+import io.definenulls.bitcoincore.network.messages.TransactionMessage
+import io.definenulls.bitcoincore.serializers.TransactionSerializer
+import io.definenulls.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.utils.HashUtils
+import io.definenulls.dashkit.models.SpecialTransaction
 import java.nio.ByteBuffer
 
 class TransactionMessageParser : IMessageParser {

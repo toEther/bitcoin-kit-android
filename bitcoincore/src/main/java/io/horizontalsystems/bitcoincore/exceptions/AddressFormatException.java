@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.horizontalsystems.bitcoincore.exceptions;
+package io.definenulls.bitcoincore.exceptions;
 
 /**
  * AddressFormatException is thrown if an invalid Bitcoin address is detected.  An

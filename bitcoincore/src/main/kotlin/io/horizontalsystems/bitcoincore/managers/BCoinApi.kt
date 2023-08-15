@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
 import com.eclipsesource.json.Json
 import com.eclipsesource.json.JsonObject
-import io.horizontalsystems.bitcoincore.core.IInitialSyncApi
+import io.definenulls.bitcoincore.core.IInitialSyncApi
 import java.util.logging.Logger
 
 class BCoinApi(host: String) : IInitialSyncApi {

@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.storage.UnspentOutput
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.storage.UnspentOutput
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 
 interface IUnspentOutputSelector {
     fun select(value: Long, feeRate: Int, outputType: ScriptType = ScriptType.P2PKH, changeType: ScriptType = ScriptType.P2PKH, senderPay: Boolean, dust: Int, pluginDataOutputSize: Int): SelectedUnspentOutputInfo

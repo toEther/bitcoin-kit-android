@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
 import com.eclipsesource.json.Json
 import com.eclipsesource.json.JsonValue

@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.models
+package io.definenulls.bitcoincore.models
 
 import com.eclipsesource.json.Json
 import com.eclipsesource.json.JsonArray
 import com.eclipsesource.json.JsonObject
-import io.horizontalsystems.bitcoincore.core.IPluginOutputData
+import io.definenulls.bitcoincore.core.IPluginOutputData
 
 open class TransactionInfo {
     var uid: String = ""

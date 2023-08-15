@@ -1,8 +1,8 @@
-package io.horizontalsystems.dashkit.instantsend.instantsendlock
+package io.definenulls.dashkit.instantsend.instantsendlock
 
-import io.horizontalsystems.dashkit.IInstantTransactionDelegate
-import io.horizontalsystems.dashkit.instantsend.InstantTransactionManager
-import io.horizontalsystems.dashkit.messages.ISLockMessage
+import io.definenulls.dashkit.IInstantTransactionDelegate
+import io.definenulls.dashkit.instantsend.InstantTransactionManager
+import io.definenulls.dashkit.messages.ISLockMessage
 import java.util.logging.Logger
 
 class InstantSendLockHandler(

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.extensions
+package io.definenulls.bitcoincore.extensions
 
 fun String.hexToByteArray(): ByteArray {
     return ByteArray(this.length / 2) {

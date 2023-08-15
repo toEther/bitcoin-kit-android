@@ -1,12 +1,12 @@
-package io.horizontalsystems.bitcoincore.message
+package io.definenulls.bitcoincore.message
 
-import io.horizontalsystems.bitcoincore.blocks.MerkleBlockExtractor
-import io.horizontalsystems.bitcoincore.core.DoubleSha256Hasher
-import io.horizontalsystems.bitcoincore.extensions.toHexString
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.network.messages.MerkleBlockMessage
-import io.horizontalsystems.bitcoincore.network.messages.MerkleBlockMessageParser
-import io.horizontalsystems.bitcoincore.serializers.BlockHeaderParser
+import io.definenulls.bitcoincore.blocks.MerkleBlockExtractor
+import io.definenulls.bitcoincore.core.DoubleSha256Hasher
+import io.definenulls.bitcoincore.extensions.toHexString
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.network.messages.MerkleBlockMessage
+import io.definenulls.bitcoincore.network.messages.MerkleBlockMessageParser
+import io.definenulls.bitcoincore.serializers.BlockHeaderParser
 import org.junit.Assert
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe

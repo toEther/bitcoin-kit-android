@@ -1,8 +1,8 @@
-package io.horizontalsystems.dashkit.models
+package io.definenulls.dashkit.models
 
 import com.eclipsesource.json.Json
 import com.eclipsesource.json.JsonObject
-import io.horizontalsystems.bitcoincore.models.*
+import io.definenulls.bitcoincore.models.*
 
 class DashTransactionInfo : TransactionInfo {
 

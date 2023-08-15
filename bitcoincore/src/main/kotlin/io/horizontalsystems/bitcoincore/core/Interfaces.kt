@@ -1,13 +1,13 @@
-package io.horizontalsystems.bitcoincore.core
+package io.definenulls.bitcoincore.core
 
-import io.horizontalsystems.bitcoincore.BitcoinCore
-import io.horizontalsystems.bitcoincore.managers.TransactionItem
-import io.horizontalsystems.bitcoincore.models.*
-import io.horizontalsystems.bitcoincore.network.peer.Peer
-import io.horizontalsystems.bitcoincore.storage.*
-import io.horizontalsystems.bitcoincore.transactions.builder.MutableTransaction
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
-import io.horizontalsystems.hdwalletkit.HDKey
+import io.definenulls.bitcoincore.BitcoinCore
+import io.definenulls.bitcoincore.managers.TransactionItem
+import io.definenulls.bitcoincore.models.*
+import io.definenulls.bitcoincore.network.peer.Peer
+import io.definenulls.bitcoincore.storage.*
+import io.definenulls.bitcoincore.transactions.builder.MutableTransaction
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.hdwalletkit.HDKey
 
 interface IStorage {
 

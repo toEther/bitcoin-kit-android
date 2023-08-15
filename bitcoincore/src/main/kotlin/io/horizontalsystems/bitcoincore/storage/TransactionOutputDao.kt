@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.storage
+package io.definenulls.bitcoincore.storage
 
 import androidx.room.*
-import io.horizontalsystems.bitcoincore.models.TransactionOutput
+import io.definenulls.bitcoincore.models.TransactionOutput
 
 @Dao
 interface TransactionOutputDao {

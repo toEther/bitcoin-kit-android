@@ -1,9 +1,9 @@
-package io.horizontalsystems.dashkit.masternodelist
+package io.definenulls.dashkit.masternodelist
 
-import io.horizontalsystems.bitcoincore.core.HashBytes
-import io.horizontalsystems.bitcoincore.core.IHasher
-import io.horizontalsystems.dashkit.models.CoinbaseTransaction
-import io.horizontalsystems.dashkit.models.CoinbaseTransactionSerializer
+import io.definenulls.bitcoincore.core.HashBytes
+import io.definenulls.bitcoincore.core.IHasher
+import io.definenulls.dashkit.models.CoinbaseTransaction
+import io.definenulls.dashkit.models.CoinbaseTransactionSerializer
 
 class MasternodeCbTxHasher(private val coinbaseTransactionSerializer: CoinbaseTransactionSerializer, private val hasher: IHasher) {
 

@@ -1,6 +1,6 @@
-package io.horizontalsystems.dashkit.models
+package io.definenulls.dashkit.models
 
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.storage.FullTransaction
 
 class SpecialTransaction(
         val transaction: FullTransaction,

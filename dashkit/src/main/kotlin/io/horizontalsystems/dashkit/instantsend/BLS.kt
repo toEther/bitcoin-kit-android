@@ -1,4 +1,4 @@
-package io.horizontalsystems.dashkit.instantsend
+package io.definenulls.dashkit.instantsend
 
 import org.dashj.bls.InsecureSignature
 import org.dashj.bls.JNI

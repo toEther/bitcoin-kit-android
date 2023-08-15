@@ -1,6 +1,6 @@
-package io.horizontalsystems.dashkit.masternodelist
+package io.definenulls.dashkit.masternodelist
 
-import io.horizontalsystems.dashkit.models.Masternode
+import io.definenulls.dashkit.models.Masternode
 
 class MasternodeListMerkleRootCalculator(val masternodeMerkleRootCreator: MerkleRootCreator) {
 

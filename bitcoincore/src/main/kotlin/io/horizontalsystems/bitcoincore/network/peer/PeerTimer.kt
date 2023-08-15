@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.network.peer
+package io.definenulls.bitcoincore.network.peer
 
 import java.util.concurrent.TimeUnit
 

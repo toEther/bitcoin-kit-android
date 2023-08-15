@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.blocks.validators
+package io.definenulls.bitcoincore.blocks.validators
 
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincore.models.Block
 
 interface IBlockValidator {
     fun validate(block: Block, previousBlock: Block)

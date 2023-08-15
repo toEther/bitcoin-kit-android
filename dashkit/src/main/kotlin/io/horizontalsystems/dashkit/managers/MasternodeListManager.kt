@@ -1,13 +1,13 @@
-package io.horizontalsystems.dashkit.managers
+package io.definenulls.dashkit.managers
 
-import io.horizontalsystems.bitcoincore.core.HashBytes
-import io.horizontalsystems.bitcoincore.utils.HashUtils
-import io.horizontalsystems.bitcoincore.utils.MerkleBranch
-import io.horizontalsystems.dashkit.IDashStorage
-import io.horizontalsystems.dashkit.masternodelist.MasternodeCbTxHasher
-import io.horizontalsystems.dashkit.masternodelist.MasternodeListMerkleRootCalculator
-import io.horizontalsystems.dashkit.messages.MasternodeListDiffMessage
-import io.horizontalsystems.dashkit.models.MasternodeListState
+import io.definenulls.bitcoincore.core.HashBytes
+import io.definenulls.bitcoincore.utils.HashUtils
+import io.definenulls.bitcoincore.utils.MerkleBranch
+import io.definenulls.dashkit.IDashStorage
+import io.definenulls.dashkit.masternodelist.MasternodeCbTxHasher
+import io.definenulls.dashkit.masternodelist.MasternodeListMerkleRootCalculator
+import io.definenulls.dashkit.messages.MasternodeListDiffMessage
+import io.definenulls.dashkit.models.MasternodeListState
 
 class MasternodeListManager(
         private val storage: IDashStorage,

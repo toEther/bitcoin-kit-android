@@ -1,6 +1,6 @@
-package io.horizontalsystems.dashkit.masternodelist
+package io.definenulls.dashkit.masternodelist
 
-import io.horizontalsystems.dashkit.models.Quorum
+import io.definenulls.dashkit.models.Quorum
 
 class QuorumListMerkleRootCalculator(private val merkleRootCreator: MerkleRootCreator) {
 

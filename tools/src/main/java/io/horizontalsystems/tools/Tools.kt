@@ -1,8 +1,8 @@
-package io.horizontalsystems.tools
+package io.definenulls.tools
 
-import io.horizontalsystems.bitcoincore.models.Block
-import io.horizontalsystems.bitcoincore.storage.BlockHeader
-import io.horizontalsystems.bitcoincore.utils.HashUtils
+import io.definenulls.bitcoincore.models.Block
+import io.definenulls.bitcoincore.storage.BlockHeader
+import io.definenulls.bitcoincore.utils.HashUtils
 import java.util.logging.Level
 import java.util.logging.Logger
 

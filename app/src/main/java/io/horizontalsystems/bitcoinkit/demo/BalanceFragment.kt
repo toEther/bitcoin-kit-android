@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoinkit.demo
+package io.definenulls.bitcoinkit.demo
 
 import androidx.lifecycle.Observer
 import android.os.Bundle
@@ -10,7 +10,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.bitcoincore.BitcoinCore
+import io.definenulls.bitcoincore.BitcoinCore
 import kotlinx.android.synthetic.main.fragment_balance.*
 import java.text.SimpleDateFormat
 import java.util.*

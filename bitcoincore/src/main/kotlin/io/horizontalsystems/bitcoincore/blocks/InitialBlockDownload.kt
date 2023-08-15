@@ -1,12 +1,12 @@
-package io.horizontalsystems.bitcoincore.blocks
+package io.definenulls.bitcoincore.blocks
 
-import io.horizontalsystems.bitcoincore.core.IBlockSyncListener
-import io.horizontalsystems.bitcoincore.models.InventoryItem
-import io.horizontalsystems.bitcoincore.models.MerkleBlock
-import io.horizontalsystems.bitcoincore.network.peer.*
-import io.horizontalsystems.bitcoincore.network.peer.task.GetBlockHashesTask
-import io.horizontalsystems.bitcoincore.network.peer.task.GetMerkleBlocksTask
-import io.horizontalsystems.bitcoincore.network.peer.task.PeerTask
+import io.definenulls.bitcoincore.core.IBlockSyncListener
+import io.definenulls.bitcoincore.models.InventoryItem
+import io.definenulls.bitcoincore.models.MerkleBlock
+import io.definenulls.bitcoincore.network.peer.*
+import io.definenulls.bitcoincore.network.peer.task.GetBlockHashesTask
+import io.definenulls.bitcoincore.network.peer.task.GetMerkleBlocksTask
+import io.definenulls.bitcoincore.network.peer.task.PeerTask
 import java.util.concurrent.CopyOnWriteArrayList
 import java.util.concurrent.Executors
 import java.util.logging.Logger

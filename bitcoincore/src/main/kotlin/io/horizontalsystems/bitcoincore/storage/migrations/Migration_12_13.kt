@@ -1,14 +1,14 @@
-package io.horizontalsystems.bitcoincore.storage.migrations
+package io.definenulls.bitcoincore.storage.migrations
 
 import android.database.Cursor
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import io.horizontalsystems.bitcoincore.models.*
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
-import io.horizontalsystems.bitcoincore.storage.WitnessConverter
-import io.horizontalsystems.bitcoincore.transactions.extractors.ITransactionOutputProvider
-import io.horizontalsystems.bitcoincore.transactions.extractors.MyOutputsCache
-import io.horizontalsystems.bitcoincore.transactions.extractors.TransactionMetadataExtractor
+import io.definenulls.bitcoincore.models.*
+import io.definenulls.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.storage.WitnessConverter
+import io.definenulls.bitcoincore.transactions.extractors.ITransactionOutputProvider
+import io.definenulls.bitcoincore.transactions.extractors.MyOutputsCache
+import io.definenulls.bitcoincore.transactions.extractors.TransactionMetadataExtractor
 
 object Migration_12_13 : Migration(12, 13) {
 

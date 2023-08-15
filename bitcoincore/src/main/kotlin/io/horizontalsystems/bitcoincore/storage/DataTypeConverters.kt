@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.storage
+package io.definenulls.bitcoincore.storage
 
 import androidx.room.TypeConverter
-import io.horizontalsystems.bitcoincore.extensions.hexToByteArray
-import io.horizontalsystems.bitcoincore.extensions.toHexString
+import io.definenulls.bitcoincore.extensions.hexToByteArray
+import io.definenulls.bitcoincore.extensions.toHexString
 
 class WitnessConverter {
 

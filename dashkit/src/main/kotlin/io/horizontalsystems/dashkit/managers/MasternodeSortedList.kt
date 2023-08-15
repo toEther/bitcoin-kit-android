@@ -1,6 +1,6 @@
-package io.horizontalsystems.dashkit.managers
+package io.definenulls.dashkit.managers
 
-import io.horizontalsystems.dashkit.models.Masternode
+import io.definenulls.dashkit.models.Masternode
 
 class MasternodeSortedList {
     private val masternodeList = mutableListOf<Masternode>()

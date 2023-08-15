@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.serializers
+package io.definenulls.bitcoincore.serializers
 
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
-import io.horizontalsystems.bitcoincore.models.TransactionInput
-import io.horizontalsystems.bitcoincore.storage.InputToSign
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.models.TransactionInput
+import io.definenulls.bitcoincore.storage.InputToSign
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 
 object InputSerializer {
 

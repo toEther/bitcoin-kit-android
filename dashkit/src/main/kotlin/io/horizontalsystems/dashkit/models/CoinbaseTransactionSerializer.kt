@@ -1,7 +1,7 @@
-package io.horizontalsystems.dashkit.models
+package io.definenulls.dashkit.models
 
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
-import io.horizontalsystems.bitcoincore.serializers.TransactionSerializer
+import io.definenulls.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.serializers.TransactionSerializer
 
 class CoinbaseTransactionSerializer {
 

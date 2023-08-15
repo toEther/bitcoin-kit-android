@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.blocks
+package io.definenulls.bitcoincore.blocks
 
-import io.horizontalsystems.bitcoincore.models.Block
-import io.horizontalsystems.bitcoincore.models.Transaction
+import io.definenulls.bitcoincore.models.Block
+import io.definenulls.bitcoincore.models.Transaction
 
 interface IBlockchainDataListener {
     fun onBlockInsert(block: Block)

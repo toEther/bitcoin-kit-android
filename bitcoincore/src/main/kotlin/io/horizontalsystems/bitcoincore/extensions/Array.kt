@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.extensions
+package io.definenulls.bitcoincore.extensions
 
 fun ByteArray.toHexString(): String {
     return this.joinToString(separator = "") {

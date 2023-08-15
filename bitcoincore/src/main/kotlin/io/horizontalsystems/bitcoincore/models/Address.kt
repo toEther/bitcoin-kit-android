@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.models
+package io.definenulls.bitcoincore.models
 
-import io.horizontalsystems.bitcoincore.transactions.scripts.OpCodes
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.transactions.scripts.OpCodes
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 
 enum class AddressType {
     PubKeyHash,

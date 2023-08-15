@@ -1,12 +1,12 @@
-package io.horizontalsystems.litecoinkit.validators
+package io.definenulls.litecoinkit.validators
 
-import io.horizontalsystems.bitcoincore.blocks.validators.BlockValidatorException
-import io.horizontalsystems.bitcoincore.blocks.validators.IBlockChainedValidator
-import io.horizontalsystems.bitcoincore.crypto.CompactBits
-import io.horizontalsystems.bitcoincore.extensions.toHexString
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
-import io.horizontalsystems.bitcoincore.models.Block
-import io.horizontalsystems.litecoinkit.ScryptHasher
+import io.definenulls.bitcoincore.blocks.validators.BlockValidatorException
+import io.definenulls.bitcoincore.blocks.validators.IBlockChainedValidator
+import io.definenulls.bitcoincore.crypto.CompactBits
+import io.definenulls.bitcoincore.extensions.toHexString
+import io.definenulls.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.models.Block
+import io.definenulls.litecoinkit.ScryptHasher
 import java.math.BigInteger
 
 class ProofOfWorkValidator(private val scryptHasher: ScryptHasher) : IBlockChainedValidator {

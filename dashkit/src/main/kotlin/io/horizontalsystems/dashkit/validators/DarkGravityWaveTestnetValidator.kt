@@ -1,9 +1,9 @@
-package io.horizontalsystems.dashkit.validators
+package io.definenulls.dashkit.validators
 
-import io.horizontalsystems.bitcoincore.blocks.validators.BlockValidatorException
-import io.horizontalsystems.bitcoincore.blocks.validators.IBlockChainedValidator
-import io.horizontalsystems.bitcoincore.crypto.CompactBits
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincore.blocks.validators.BlockValidatorException
+import io.definenulls.bitcoincore.blocks.validators.IBlockChainedValidator
+import io.definenulls.bitcoincore.crypto.CompactBits
+import io.definenulls.bitcoincore.models.Block
 
 class DarkGravityWaveTestnetValidator(
         private val targetSpacing: Int,

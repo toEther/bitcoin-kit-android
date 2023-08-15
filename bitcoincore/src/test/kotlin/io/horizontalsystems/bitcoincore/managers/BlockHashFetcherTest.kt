@@ -1,10 +1,10 @@
-//package io.horizontalsystems.bitcoincore.managers
+//package io.definenulls.bitcoincore.managers
 //
 //import com.nhaarman.mockitokotlin2.mock
 //import com.nhaarman.mockitokotlin2.whenever
-//import io.horizontalsystems.bitcoincore.core.IInitialSyncApi
-//import io.horizontalsystems.bitcoincore.extensions.toReversedHex
-//import io.horizontalsystems.bitcoincore.models.PublicKey
+//import io.definenulls.bitcoincore.core.IInitialSyncApi
+//import io.definenulls.bitcoincore.extensions.toReversedHex
+//import io.definenulls.bitcoincore.models.PublicKey
 //import org.junit.Assert
 //import org.mockito.Mockito
 //import org.spekframework.spek2.Spek

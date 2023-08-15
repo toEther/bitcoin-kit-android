@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.utils
+package io.definenulls.bitcoincore.utils
 
-import io.horizontalsystems.bitcoincore.models.TransactionOutput
-import io.horizontalsystems.bitcoincore.storage.UnspentOutput
+import io.definenulls.bitcoincore.models.TransactionOutput
+import io.definenulls.bitcoincore.storage.UnspentOutput
 
 object Bip69 {
 

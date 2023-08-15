@@ -1,11 +1,11 @@
-package io.horizontalsystems.dashkit.instantsend
+package io.definenulls.dashkit.instantsend
 
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
-import io.horizontalsystems.bitcoincore.utils.HashUtils
-import io.horizontalsystems.dashkit.DashKitErrors
-import io.horizontalsystems.dashkit.managers.QuorumListManager
-import io.horizontalsystems.dashkit.messages.ISLockMessage
-import io.horizontalsystems.dashkit.models.QuorumType
+import io.definenulls.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.utils.HashUtils
+import io.definenulls.dashkit.DashKitErrors
+import io.definenulls.dashkit.managers.QuorumListManager
+import io.definenulls.dashkit.messages.ISLockMessage
+import io.definenulls.dashkit.models.QuorumType
 
 class InstantSendLockValidator(
         private val quorumListManager: QuorumListManager,

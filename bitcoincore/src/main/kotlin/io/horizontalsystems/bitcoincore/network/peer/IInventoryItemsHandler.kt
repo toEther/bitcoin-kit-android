@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.network.peer
+package io.definenulls.bitcoincore.network.peer
 
-import io.horizontalsystems.bitcoincore.models.InventoryItem
+import io.definenulls.bitcoincore.models.InventoryItem
 
 interface IInventoryItemsHandler {
     fun handleInventoryItems(peer: Peer, inventoryItems: List<InventoryItem>)

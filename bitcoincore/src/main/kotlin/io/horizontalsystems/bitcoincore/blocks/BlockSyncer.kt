@@ -1,16 +1,16 @@
-package io.horizontalsystems.bitcoincore.blocks
+package io.definenulls.bitcoincore.blocks
 
-import io.horizontalsystems.bitcoincore.BitcoinCore
-import io.horizontalsystems.bitcoincore.core.IBlockSyncListener
-import io.horizontalsystems.bitcoincore.core.IPublicKeyManager
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.managers.BloomFilterManager
-import io.horizontalsystems.bitcoincore.managers.PublicKeyManager
-import io.horizontalsystems.bitcoincore.models.BlockHash
-import io.horizontalsystems.bitcoincore.models.Checkpoint
-import io.horizontalsystems.bitcoincore.models.MerkleBlock
-import io.horizontalsystems.bitcoincore.network.Network
-import io.horizontalsystems.bitcoincore.transactions.BlockTransactionProcessor
+import io.definenulls.bitcoincore.BitcoinCore
+import io.definenulls.bitcoincore.core.IBlockSyncListener
+import io.definenulls.bitcoincore.core.IPublicKeyManager
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.managers.BloomFilterManager
+import io.definenulls.bitcoincore.managers.PublicKeyManager
+import io.definenulls.bitcoincore.models.BlockHash
+import io.definenulls.bitcoincore.models.Checkpoint
+import io.definenulls.bitcoincore.models.MerkleBlock
+import io.definenulls.bitcoincore.network.Network
+import io.definenulls.bitcoincore.transactions.BlockTransactionProcessor
 
 class BlockSyncer(
         private val storage: IStorage,

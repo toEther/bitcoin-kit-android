@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.network.peer.task
+package io.definenulls.bitcoincore.network.peer.task
 
-import io.horizontalsystems.bitcoincore.models.InventoryItem
-import io.horizontalsystems.bitcoincore.network.messages.GetDataMessage
-import io.horizontalsystems.bitcoincore.network.messages.IMessage
-import io.horizontalsystems.bitcoincore.network.messages.TransactionMessage
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.models.InventoryItem
+import io.definenulls.bitcoincore.network.messages.GetDataMessage
+import io.definenulls.bitcoincore.network.messages.IMessage
+import io.definenulls.bitcoincore.network.messages.TransactionMessage
+import io.definenulls.bitcoincore.storage.FullTransaction
 
 class RequestTransactionsTask(hashes: List<ByteArray>) : PeerTask() {
     val hashes = hashes.toMutableList()

@@ -1,18 +1,18 @@
-package io.horizontalsystems.bitcoinkit.demo
+package io.definenulls.bitcoinkit.demo
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.bitcoincore.BitcoinCore
-import io.horizontalsystems.bitcoincore.BitcoinCore.KitState
-import io.horizontalsystems.bitcoincore.core.IPluginData
-import io.horizontalsystems.bitcoincore.exceptions.AddressFormatException
-import io.horizontalsystems.bitcoincore.managers.SendValueErrors
-import io.horizontalsystems.bitcoincore.models.*
-import io.horizontalsystems.bitcoinkit.BitcoinKit
-import io.horizontalsystems.hdwalletkit.HDWallet.Purpose
-import io.horizontalsystems.hodler.HodlerData
-import io.horizontalsystems.hodler.HodlerPlugin
-import io.horizontalsystems.hodler.LockTimeInterval
+import io.definenulls.bitcoincore.BitcoinCore
+import io.definenulls.bitcoincore.BitcoinCore.KitState
+import io.definenulls.bitcoincore.core.IPluginData
+import io.definenulls.bitcoincore.exceptions.AddressFormatException
+import io.definenulls.bitcoincore.managers.SendValueErrors
+import io.definenulls.bitcoincore.models.*
+import io.definenulls.bitcoinkit.BitcoinKit
+import io.definenulls.hdwalletkit.HDWallet.Purpose
+import io.definenulls.hodler.HodlerData
+import io.definenulls.hodler.HodlerPlugin
+import io.definenulls.hodler.LockTimeInterval
 import io.reactivex.disposables.CompositeDisposable
 
 class MainViewModel : ViewModel(), BitcoinKit.Listener {

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.transactions
+package io.definenulls.bitcoincore.transactions
 
-import io.horizontalsystems.bitcoincore.models.TransactionOutput
-import io.horizontalsystems.bitcoincore.transactions.scripts.OpCodes
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.models.TransactionOutput
+import io.definenulls.bitcoincore.transactions.scripts.OpCodes
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 
 class TransactionSizeCalculator {
     val ecdsaSignatureLength = 72 + 1      // signature length + pushByte

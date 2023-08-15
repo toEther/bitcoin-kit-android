@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.utils
+package io.definenulls.bitcoincore.utils
 
-import io.horizontalsystems.bitcoincore.models.BitcoinPaymentData
+import io.definenulls.bitcoincore.models.BitcoinPaymentData
 
 class PaymentAddressParser(private val validScheme: String, private val removeScheme: Boolean) {
     private val parameterVersion = "version"

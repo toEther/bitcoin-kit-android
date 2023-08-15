@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.utils
+package io.definenulls.bitcoincore.utils
 
 import okhttp3.OkHttpClient
 import okhttp3.Request

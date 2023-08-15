@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.transactions
+package io.definenulls.bitcoincore.transactions
 
-import io.horizontalsystems.bitcoincore.blocks.IPeerSyncListener
+import io.definenulls.bitcoincore.blocks.IPeerSyncListener
 
 class SendTransactionsOnPeersSynced(var transactionSender: TransactionSender) : IPeerSyncListener {
 

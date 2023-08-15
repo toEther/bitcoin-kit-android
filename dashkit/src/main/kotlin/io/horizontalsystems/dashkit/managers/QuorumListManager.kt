@@ -1,14 +1,14 @@
-package io.horizontalsystems.dashkit.managers
+package io.definenulls.dashkit.managers
 
-import io.horizontalsystems.bitcoincore.core.HashBytes
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
-import io.horizontalsystems.bitcoincore.utils.HashUtils
-import io.horizontalsystems.dashkit.DashKitErrors
-import io.horizontalsystems.dashkit.IDashStorage
-import io.horizontalsystems.dashkit.masternodelist.QuorumListMerkleRootCalculator
-import io.horizontalsystems.dashkit.messages.MasternodeListDiffMessage
-import io.horizontalsystems.dashkit.models.Quorum
-import io.horizontalsystems.dashkit.models.QuorumType
+import io.definenulls.bitcoincore.core.HashBytes
+import io.definenulls.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.utils.HashUtils
+import io.definenulls.dashkit.DashKitErrors
+import io.definenulls.dashkit.IDashStorage
+import io.definenulls.dashkit.masternodelist.QuorumListMerkleRootCalculator
+import io.definenulls.dashkit.messages.MasternodeListDiffMessage
+import io.definenulls.dashkit.models.Quorum
+import io.definenulls.dashkit.models.QuorumType
 
 class QuorumListManager(
         private val storage: IDashStorage,

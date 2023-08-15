@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.utils
+package io.definenulls.bitcoincore.utils
 
-import io.horizontalsystems.bitcoincore.models.BitcoinPaymentData
+import io.definenulls.bitcoincore.models.BitcoinPaymentData
 import org.junit.Assert.assertEquals
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe

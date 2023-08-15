@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.BitcoinCore
-import io.horizontalsystems.bitcoincore.BitcoinCore.KitState
-import io.horizontalsystems.bitcoincore.core.*
-import io.horizontalsystems.bitcoincore.network.peer.PeerGroup
+import io.definenulls.bitcoincore.BitcoinCore
+import io.definenulls.bitcoincore.BitcoinCore.KitState
+import io.definenulls.bitcoincore.core.*
+import io.definenulls.bitcoincore.network.peer.PeerGroup
 import kotlin.math.max
 
 class SyncManager(

@@ -1,8 +1,8 @@
-package io.horizontalsystems.dashkit.storage
+package io.definenulls.dashkit.storage
 
 import android.content.Context
 import androidx.room.*
-import io.horizontalsystems.dashkit.models.*
+import io.definenulls.dashkit.models.*
 
 @Database(version = 4, exportSchema = false, entities = [
     Masternode::class,

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.io;
+package io.definenulls.bitcoincore.io;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.storage
+package io.definenulls.bitcoincore.storage
 
 import androidx.room.Embedded
-import io.horizontalsystems.bitcoincore.extensions.toHexString
-import io.horizontalsystems.bitcoincore.models.*
-import io.horizontalsystems.bitcoincore.serializers.TransactionSerializer
-import io.horizontalsystems.bitcoincore.utils.HashUtils
+import io.definenulls.bitcoincore.extensions.toHexString
+import io.definenulls.bitcoincore.models.*
+import io.definenulls.bitcoincore.serializers.TransactionSerializer
+import io.definenulls.bitcoincore.utils.HashUtils
 
 class BlockHeader(
         val version: Int,

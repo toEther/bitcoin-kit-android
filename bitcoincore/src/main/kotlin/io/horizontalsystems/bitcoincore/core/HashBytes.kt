@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.core
+package io.definenulls.bitcoincore.core
 
-import io.horizontalsystems.bitcoincore.extensions.toHexString
-import io.horizontalsystems.bitcoincore.utils.Utils
+import io.definenulls.bitcoincore.extensions.toHexString
+import io.definenulls.bitcoincore.utils.Utils
 
 /**
  * Just wraps a ByteArray so that equals and hashcode work correctly, allowing it to be

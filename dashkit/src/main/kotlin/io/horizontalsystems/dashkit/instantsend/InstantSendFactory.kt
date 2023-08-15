@@ -1,6 +1,6 @@
-package io.horizontalsystems.dashkit.instantsend
+package io.definenulls.dashkit.instantsend
 
-import io.horizontalsystems.dashkit.models.InstantTransactionInput
+import io.definenulls.dashkit.models.InstantTransactionInput
 import java.util.*
 
 class InstantSendFactory {

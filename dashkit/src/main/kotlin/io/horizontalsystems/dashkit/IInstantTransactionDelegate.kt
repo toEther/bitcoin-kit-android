@@ -1,4 +1,4 @@
-package io.horizontalsystems.dashkit
+package io.definenulls.dashkit
 
 // TODO Rename to listener
 interface IInstantTransactionDelegate {

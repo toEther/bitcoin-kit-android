@@ -1,8 +1,8 @@
-package io.horizontalsystems.ecash
+package io.definenulls.ecash
 
-import io.horizontalsystems.bitcoincore.extensions.toHexString
-import io.horizontalsystems.bitcoincore.managers.IRestoreKeyConverter
-import io.horizontalsystems.bitcoincore.models.PublicKey
+import io.definenulls.bitcoincore.extensions.toHexString
+import io.definenulls.bitcoincore.managers.IRestoreKeyConverter
+import io.definenulls.bitcoincore.models.PublicKey
 
 class ECashRestoreKeyConverter: IRestoreKeyConverter {
     override fun keysForApiRestore(publicKey: PublicKey): List<String> {

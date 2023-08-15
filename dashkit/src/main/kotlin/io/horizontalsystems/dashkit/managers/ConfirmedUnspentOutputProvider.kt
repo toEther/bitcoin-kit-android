@@ -1,8 +1,8 @@
-package io.horizontalsystems.dashkit.managers
+package io.definenulls.dashkit.managers
 
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.managers.IUnspentOutputProvider
-import io.horizontalsystems.bitcoincore.storage.UnspentOutput
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.managers.IUnspentOutputProvider
+import io.definenulls.bitcoincore.storage.UnspentOutput
 
 class ConfirmedUnspentOutputProvider(private val storage: IStorage, private val confirmationsThreshold: Int) : IUnspentOutputProvider {
     override fun getSpendableUtxo(): List<UnspentOutput> {

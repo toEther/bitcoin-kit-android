@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.storage
+package io.definenulls.bitcoincore.storage
 
 import androidx.sqlite.db.SupportSQLiteQuery
 import androidx.room.*
-import io.horizontalsystems.bitcoincore.models.InvalidTransaction
-import io.horizontalsystems.bitcoincore.models.Transaction
+import io.definenulls.bitcoincore.models.InvalidTransaction
+import io.definenulls.bitcoincore.models.Transaction
 
 @Dao
 interface TransactionDao {

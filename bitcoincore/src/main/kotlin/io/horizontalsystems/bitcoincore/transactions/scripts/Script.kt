@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.transactions.scripts
+package io.definenulls.bitcoincore.transactions.scripts
 
-import io.horizontalsystems.bitcoincore.extensions.toHexString
-import io.horizontalsystems.bitcoincore.utils.Utils
+import io.definenulls.bitcoincore.extensions.toHexString
+import io.definenulls.bitcoincore.utils.Utils
 import java.io.ByteArrayInputStream
 
 enum class ScriptType(val value: Int) {

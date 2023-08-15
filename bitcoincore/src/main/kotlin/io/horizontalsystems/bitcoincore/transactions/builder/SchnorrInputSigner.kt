@@ -1,11 +1,11 @@
-package io.horizontalsystems.bitcoincore.transactions.builder
+package io.definenulls.bitcoincore.transactions.builder
 
-import io.horizontalsystems.bitcoincore.core.IPrivateWallet
-import io.horizontalsystems.bitcoincore.models.Transaction
-import io.horizontalsystems.bitcoincore.models.TransactionOutput
-import io.horizontalsystems.bitcoincore.serializers.TransactionSerializer
-import io.horizontalsystems.bitcoincore.storage.InputToSign
-import io.horizontalsystems.hdwalletkit.Utils
+import io.definenulls.bitcoincore.core.IPrivateWallet
+import io.definenulls.bitcoincore.models.Transaction
+import io.definenulls.bitcoincore.models.TransactionOutput
+import io.definenulls.bitcoincore.serializers.TransactionSerializer
+import io.definenulls.bitcoincore.storage.InputToSign
+import io.definenulls.hdwalletkit.Utils
 
 class SchnorrInputSigner(
     private val hdWallet: IPrivateWallet

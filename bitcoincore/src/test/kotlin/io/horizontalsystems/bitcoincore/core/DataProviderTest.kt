@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.core
+package io.definenulls.bitcoincore.core
 
 import com.nhaarman.mockitokotlin2.*
-import io.horizontalsystems.bitcoincore.managers.UnspentOutputProvider
-import io.horizontalsystems.bitcoincore.models.Transaction
+import io.definenulls.bitcoincore.managers.UnspentOutputProvider
+import io.definenulls.bitcoincore.models.Transaction
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe
 

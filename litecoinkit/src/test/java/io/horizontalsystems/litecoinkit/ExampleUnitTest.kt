@@ -1,4 +1,4 @@
-package io.horizontalsystems.litecoinkit
+package io.definenulls.litecoinkit
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.network.messages
+package io.definenulls.bitcoincore.network.messages
 
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
 
 class RejectMessage(private val responseToMessage: String,
                     private val rejectCode: Byte,

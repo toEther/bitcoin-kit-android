@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.network.messages
+package io.definenulls.bitcoincore.network.messages
 
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
-import io.horizontalsystems.bitcoincore.models.NetworkAddress
-import io.horizontalsystems.bitcoincore.network.Network
-import io.horizontalsystems.bitcoincore.utils.NetworkUtils
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.models.NetworkAddress
+import io.definenulls.bitcoincore.network.Network
+import io.definenulls.bitcoincore.utils.NetworkUtils
 import java.net.InetAddress
 
 class VersionMessage(val protocolVersion: Int, val services: Long, val timestamp: Long, val recipientAddress: NetworkAddress) : IMessage {

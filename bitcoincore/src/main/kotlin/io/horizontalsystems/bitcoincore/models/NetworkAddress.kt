@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.models
+package io.definenulls.bitcoincore.models
 
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.io.BitcoinOutput
-import io.horizontalsystems.bitcoincore.network.Network
-import io.horizontalsystems.bitcoincore.utils.NetworkUtils
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.io.BitcoinOutput
+import io.definenulls.bitcoincore.network.Network
+import io.definenulls.bitcoincore.utils.NetworkUtils
 import java.io.IOException
 import java.net.InetAddress
 

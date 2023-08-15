@@ -1,11 +1,11 @@
-package io.horizontalsystems.bitcoincore.utils
+package io.definenulls.bitcoincore.utils
 
-import io.horizontalsystems.bitcoincore.exceptions.AddressFormatException
-import io.horizontalsystems.bitcoincore.extensions.hexToByteArray
-import io.horizontalsystems.bitcoincore.extensions.toHexString
-import io.horizontalsystems.bitcoincore.models.Address
-import io.horizontalsystems.bitcoincore.models.AddressType
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.exceptions.AddressFormatException
+import io.definenulls.bitcoincore.extensions.hexToByteArray
+import io.definenulls.bitcoincore.extensions.toHexString
+import io.definenulls.bitcoincore.models.Address
+import io.definenulls.bitcoincore.models.AddressType
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 import org.junit.Assert.assertArrayEquals
 import org.junit.Assert.assertEquals
 import org.junit.jupiter.api.assertThrows

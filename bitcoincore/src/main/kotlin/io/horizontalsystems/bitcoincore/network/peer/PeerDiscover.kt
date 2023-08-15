@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.network.peer
+package io.definenulls.bitcoincore.network.peer
 
-import io.horizontalsystems.bitcoincore.core.IPeerAddressManager
+import io.definenulls.bitcoincore.core.IPeerAddressManager
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import java.net.Inet6Address

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.exceptions;
+package io.definenulls.bitcoincore.exceptions;
 
 /**
  * Base exception for bitcoin app.

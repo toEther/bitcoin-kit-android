@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.transactions.scripts
+package io.definenulls.bitcoincore.transactions.scripts
 
-import io.horizontalsystems.bitcoincore.utils.Utils
+import io.definenulls.bitcoincore.utils.Utils
 
 // push value
 const val OP_0 = 0x00 // push empty vector

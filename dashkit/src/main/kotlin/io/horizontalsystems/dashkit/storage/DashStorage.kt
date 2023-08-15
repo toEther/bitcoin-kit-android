@@ -1,11 +1,11 @@
-package io.horizontalsystems.dashkit.storage
+package io.definenulls.dashkit.storage
 
-import io.horizontalsystems.bitcoincore.models.Block
-import io.horizontalsystems.bitcoincore.models.TransactionInput
-import io.horizontalsystems.bitcoincore.storage.FullTransactionInfo
-import io.horizontalsystems.bitcoincore.storage.Storage
-import io.horizontalsystems.dashkit.IDashStorage
-import io.horizontalsystems.dashkit.models.*
+import io.definenulls.bitcoincore.models.Block
+import io.definenulls.bitcoincore.models.TransactionInput
+import io.definenulls.bitcoincore.storage.FullTransactionInfo
+import io.definenulls.bitcoincore.storage.Storage
+import io.definenulls.dashkit.IDashStorage
+import io.definenulls.dashkit.models.*
 
 class DashStorage(private val dashStore: DashKitDatabase, private val coreStorage: Storage) : IDashStorage {
 

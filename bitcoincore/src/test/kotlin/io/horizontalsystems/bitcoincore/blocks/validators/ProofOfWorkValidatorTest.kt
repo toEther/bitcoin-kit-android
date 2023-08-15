@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.blocks.validators
+package io.definenulls.bitcoincore.blocks.validators
 
-import io.horizontalsystems.bitcoincore.Fixtures
-import io.horizontalsystems.bitcoincore.crypto.CompactBits
+import io.definenulls.bitcoincore.Fixtures
+import io.definenulls.bitcoincore.crypto.CompactBits
 import org.junit.jupiter.api.Assertions.assertDoesNotThrow
 import org.junit.jupiter.api.assertThrows
 import org.spekframework.spek2.Spek

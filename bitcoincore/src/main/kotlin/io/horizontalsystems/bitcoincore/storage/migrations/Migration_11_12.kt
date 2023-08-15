@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.storage.migrations
+package io.definenulls.bitcoincore.storage.migrations
 
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase

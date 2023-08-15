@@ -1,13 +1,13 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
 import com.nhaarman.mockitokotlin2.any
 import com.nhaarman.mockitokotlin2.doReturn
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.whenever
-import io.horizontalsystems.bitcoincore.models.TransactionOutput
-import io.horizontalsystems.bitcoincore.storage.UnspentOutput
-import io.horizontalsystems.bitcoincore.transactions.TransactionSizeCalculator
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.models.TransactionOutput
+import io.definenulls.bitcoincore.storage.UnspentOutput
+import io.definenulls.bitcoincore.transactions.TransactionSizeCalculator
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 import org.junit.Assert
 import org.junit.jupiter.api.assertThrows
 import org.spekframework.spek2.Spek

@@ -1,6 +1,6 @@
-package io.horizontalsystems.dashkit.masternodelist
+package io.definenulls.dashkit.masternodelist
 
-import io.horizontalsystems.dashkit.IMerkleHasher
+import io.definenulls.dashkit.IMerkleHasher
 
 class MerkleRootCreator(val hasher: IMerkleHasher) {
 

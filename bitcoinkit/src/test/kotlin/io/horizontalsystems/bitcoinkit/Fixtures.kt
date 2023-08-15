@@ -1,15 +1,15 @@
-package io.horizontalsystems.bitcoinkit
+package io.definenulls.bitcoinkit
 
-import io.horizontalsystems.bitcoincore.extensions.hexToByteArray
-import io.horizontalsystems.bitcoincore.extensions.toReversedByteArray
-import io.horizontalsystems.bitcoincore.models.Block
-import io.horizontalsystems.bitcoincore.models.Transaction
-import io.horizontalsystems.bitcoincore.models.TransactionInput
-import io.horizontalsystems.bitcoincore.models.TransactionOutput
-import io.horizontalsystems.bitcoincore.storage.BlockHeader
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
-import io.horizontalsystems.bitcoincore.utils.HashUtils
+import io.definenulls.bitcoincore.extensions.hexToByteArray
+import io.definenulls.bitcoincore.extensions.toReversedByteArray
+import io.definenulls.bitcoincore.models.Block
+import io.definenulls.bitcoincore.models.Transaction
+import io.definenulls.bitcoincore.models.TransactionInput
+import io.definenulls.bitcoincore.models.TransactionOutput
+import io.definenulls.bitcoincore.storage.BlockHeader
+import io.definenulls.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.utils.HashUtils
 
 object Fixtures {
 

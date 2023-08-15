@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.crypto;
+package io.definenulls.bitcoincore.crypto;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 
-import io.horizontalsystems.bitcoincore.utils.Utils;
+import io.definenulls.bitcoincore.utils.Utils;
 
 /**
  * Provides Base-58 encoding and decoding

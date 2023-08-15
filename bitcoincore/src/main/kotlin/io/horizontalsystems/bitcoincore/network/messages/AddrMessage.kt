@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.network.messages
+package io.definenulls.bitcoincore.network.messages
 
-import io.horizontalsystems.bitcoincore.io.BitcoinInputMarkable
-import io.horizontalsystems.bitcoincore.models.NetworkAddress
+import io.definenulls.bitcoincore.io.BitcoinInputMarkable
+import io.definenulls.bitcoincore.models.NetworkAddress
 
 class AddrMessage(var addresses: List<NetworkAddress>) : IMessage {
     override fun toString(): String {

@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.transactions.builder
+package io.definenulls.bitcoincore.transactions.builder
 
-import io.horizontalsystems.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.core.IStorage
 
 class LockTimeSetter(private val storage: IStorage) {
 

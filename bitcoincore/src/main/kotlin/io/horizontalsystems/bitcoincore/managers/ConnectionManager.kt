@@ -1,12 +1,12 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.Network
 import android.net.NetworkCapabilities
 import android.net.NetworkRequest
-import io.horizontalsystems.bitcoincore.core.IConnectionManager
-import io.horizontalsystems.bitcoincore.core.IConnectionManagerListener
+import io.definenulls.bitcoincore.core.IConnectionManager
+import io.definenulls.bitcoincore.core.IConnectionManagerListener
 
 class ConnectionManager(context: Context) : IConnectionManager {
 

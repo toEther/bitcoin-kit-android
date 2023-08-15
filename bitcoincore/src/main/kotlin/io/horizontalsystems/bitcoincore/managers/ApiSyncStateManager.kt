@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.core.IStorage
 
 class ApiSyncStateManager(
         private val storage: IStorage,

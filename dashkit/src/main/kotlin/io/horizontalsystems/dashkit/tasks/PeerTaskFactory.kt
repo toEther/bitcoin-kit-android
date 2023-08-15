@@ -1,4 +1,4 @@
-package io.horizontalsystems.dashkit.tasks
+package io.definenulls.dashkit.tasks
 
 class PeerTaskFactory {
 

@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.core
+package io.definenulls.bitcoincore.core
 
-import io.horizontalsystems.bitcoincore.utils.HashUtils
+import io.definenulls.bitcoincore.utils.HashUtils
 
 class DoubleSha256Hasher : IHasher {
     override fun hash(data: ByteArray): ByteArray {

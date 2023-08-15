@@ -1,6 +1,6 @@
-package io.horizontalsystems.dashkit
+package io.definenulls.dashkit
 
-import io.horizontalsystems.bitcoincore.network.Network
+import io.definenulls.bitcoincore.network.Network
 
 class TestNetDash : Network() {
 

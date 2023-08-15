@@ -1,28 +1,28 @@
-package io.horizontalsystems.litecoinkit
+package io.definenulls.litecoinkit
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
-import io.horizontalsystems.bitcoincore.AbstractKit
-import io.horizontalsystems.bitcoincore.BitcoinCore
-import io.horizontalsystems.bitcoincore.BitcoinCore.SyncMode
-import io.horizontalsystems.bitcoincore.BitcoinCoreBuilder
-import io.horizontalsystems.bitcoincore.blocks.validators.BitsValidator
-import io.horizontalsystems.bitcoincore.blocks.validators.BlockValidatorChain
-import io.horizontalsystems.bitcoincore.blocks.validators.BlockValidatorSet
-import io.horizontalsystems.bitcoincore.blocks.validators.LegacyTestNetDifficultyValidator
-import io.horizontalsystems.bitcoincore.managers.*
-import io.horizontalsystems.bitcoincore.network.Network
-import io.horizontalsystems.bitcoincore.storage.CoreDatabase
-import io.horizontalsystems.bitcoincore.storage.Storage
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
-import io.horizontalsystems.bitcoincore.utils.Base58AddressConverter
-import io.horizontalsystems.bitcoincore.utils.PaymentAddressParser
-import io.horizontalsystems.bitcoincore.utils.SegwitAddressConverter
-import io.horizontalsystems.hdwalletkit.HDExtendedKey
-import io.horizontalsystems.hdwalletkit.HDWallet.Purpose
-import io.horizontalsystems.hdwalletkit.Mnemonic
-import io.horizontalsystems.litecoinkit.validators.LegacyDifficultyAdjustmentValidator
-import io.horizontalsystems.litecoinkit.validators.ProofOfWorkValidator
+import io.definenulls.bitcoincore.AbstractKit
+import io.definenulls.bitcoincore.BitcoinCore
+import io.definenulls.bitcoincore.BitcoinCore.SyncMode
+import io.definenulls.bitcoincore.BitcoinCoreBuilder
+import io.definenulls.bitcoincore.blocks.validators.BitsValidator
+import io.definenulls.bitcoincore.blocks.validators.BlockValidatorChain
+import io.definenulls.bitcoincore.blocks.validators.BlockValidatorSet
+import io.definenulls.bitcoincore.blocks.validators.LegacyTestNetDifficultyValidator
+import io.definenulls.bitcoincore.managers.*
+import io.definenulls.bitcoincore.network.Network
+import io.definenulls.bitcoincore.storage.CoreDatabase
+import io.definenulls.bitcoincore.storage.Storage
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.utils.Base58AddressConverter
+import io.definenulls.bitcoincore.utils.PaymentAddressParser
+import io.definenulls.bitcoincore.utils.SegwitAddressConverter
+import io.definenulls.hdwalletkit.HDExtendedKey
+import io.definenulls.hdwalletkit.HDWallet.Purpose
+import io.definenulls.hdwalletkit.Mnemonic
+import io.definenulls.litecoinkit.validators.LegacyDifficultyAdjustmentValidator
+import io.definenulls.litecoinkit.validators.ProofOfWorkValidator
 
 class LitecoinKit : AbstractKit {
     enum class NetworkType {

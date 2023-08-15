@@ -1,12 +1,12 @@
-package io.horizontalsystems.bitcoincore.utils
+package io.definenulls.bitcoincore.utils
 
-import io.horizontalsystems.bitcoincore.crypto.Bech32.Encoding
-import io.horizontalsystems.bitcoincore.crypto.Bech32Cash
-import io.horizontalsystems.bitcoincore.crypto.Bech32Segwit
-import io.horizontalsystems.bitcoincore.exceptions.AddressFormatException
-import io.horizontalsystems.bitcoincore.models.*
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
-import io.horizontalsystems.hdwalletkit.ECKey
+import io.definenulls.bitcoincore.crypto.Bech32.Encoding
+import io.definenulls.bitcoincore.crypto.Bech32Cash
+import io.definenulls.bitcoincore.crypto.Bech32Segwit
+import io.definenulls.bitcoincore.exceptions.AddressFormatException
+import io.definenulls.bitcoincore.models.*
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.hdwalletkit.ECKey
 
 abstract class Bech32AddressConverter(var hrp: String) : IAddressConverter
 

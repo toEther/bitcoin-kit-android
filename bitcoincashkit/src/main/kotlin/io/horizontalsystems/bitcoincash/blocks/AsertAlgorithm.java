@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincash.blocks;
+package io.definenulls.bitcoincash.blocks;
 
 import java.math.BigInteger;
 

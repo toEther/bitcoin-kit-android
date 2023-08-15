@@ -1,11 +1,11 @@
-package io.horizontalsystems.bitcoincore
+package io.definenulls.bitcoincore
 
-import io.horizontalsystems.bitcoincore.core.IPluginData
-import io.horizontalsystems.bitcoincore.models.*
-import io.horizontalsystems.bitcoincore.network.Network
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
-import io.horizontalsystems.bitcoincore.storage.UnspentOutput
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.core.IPluginData
+import io.definenulls.bitcoincore.models.*
+import io.definenulls.bitcoincore.network.Network
+import io.definenulls.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.storage.UnspentOutput
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 import io.reactivex.Single
 
 abstract class AbstractKit {

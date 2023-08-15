@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore
+package io.definenulls.bitcoincore
 
-import io.horizontalsystems.bitcoincore.transactions.TransactionSizeCalculator
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.transactions.TransactionSizeCalculator
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 
 /**
  * Calculates the minimum amount of BTC or "dust" required to broadcast a transaction and pay miner fees.

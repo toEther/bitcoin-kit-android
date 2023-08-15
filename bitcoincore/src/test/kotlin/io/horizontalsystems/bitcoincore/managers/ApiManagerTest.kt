@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
 import com.eclipsesource.json.JsonObject
 import com.nhaarman.mockitokotlin2.whenever
-import io.horizontalsystems.bitcoincore.RxTestRule
+import io.definenulls.bitcoincore.RxTestRule
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test

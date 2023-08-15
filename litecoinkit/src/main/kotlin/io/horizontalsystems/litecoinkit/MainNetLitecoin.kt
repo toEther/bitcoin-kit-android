@@ -1,6 +1,6 @@
-package io.horizontalsystems.litecoinkit
+package io.definenulls.litecoinkit
 
-import io.horizontalsystems.bitcoincore.network.Network
+import io.definenulls.bitcoincore.network.Network
 
 class MainNetLitecoin : Network() {
     override val protocolVersion: Int = 70015

@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
 import com.nhaarman.mockitokotlin2.whenever
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.network.Network
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.network.Network
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.mockito.Mockito.mock

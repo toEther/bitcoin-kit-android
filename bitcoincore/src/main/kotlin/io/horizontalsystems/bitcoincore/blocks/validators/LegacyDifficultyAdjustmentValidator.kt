@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.blocks.validators
+package io.definenulls.bitcoincore.blocks.validators
 
-import io.horizontalsystems.bitcoincore.crypto.CompactBits
-import io.horizontalsystems.bitcoincore.managers.BlockValidatorHelper
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincore.crypto.CompactBits
+import io.definenulls.bitcoincore.managers.BlockValidatorHelper
+import io.definenulls.bitcoincore.models.Block
 import java.math.BigInteger
 import kotlin.math.min
 

@@ -1,6 +1,6 @@
-package io.horizontalsystems.hodler
+package io.definenulls.hodler
 
-import io.horizontalsystems.bitcoincore.utils.Utils
+import io.definenulls.bitcoincore.utils.Utils
 
 enum class LockTimeInterval(private val value: Int) {
     hour(7),

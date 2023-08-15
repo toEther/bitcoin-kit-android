@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.blocks.validators
+package io.definenulls.bitcoincore.blocks.validators
 
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincore.models.Block
 
 class BitsValidator : IBlockChainedValidator {
 

@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.blocks
+package io.definenulls.bitcoincore.blocks
 
-import io.horizontalsystems.bitcoincore.crypto.BloomFilter
-import io.horizontalsystems.bitcoincore.managers.BloomFilterManager
-import io.horizontalsystems.bitcoincore.network.peer.Peer
-import io.horizontalsystems.bitcoincore.network.peer.PeerGroup
-import io.horizontalsystems.bitcoincore.network.peer.PeerManager
+import io.definenulls.bitcoincore.crypto.BloomFilter
+import io.definenulls.bitcoincore.managers.BloomFilterManager
+import io.definenulls.bitcoincore.network.peer.Peer
+import io.definenulls.bitcoincore.network.peer.PeerGroup
+import io.definenulls.bitcoincore.network.peer.PeerManager
 
 class BloomFilterLoader(private val bloomFilterManager: BloomFilterManager, private val peerManager: PeerManager)
     : PeerGroup.Listener, BloomFilterManager.Listener {

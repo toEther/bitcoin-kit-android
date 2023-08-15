@@ -1,15 +1,15 @@
-package io.horizontalsystems.bitcoincore
+package io.definenulls.bitcoincore
 
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.whenever
-import io.horizontalsystems.bitcoincore.extensions.hexToByteArray
-import io.horizontalsystems.bitcoincore.extensions.toReversedByteArray
-import io.horizontalsystems.bitcoincore.models.*
-import io.horizontalsystems.bitcoincore.storage.BlockHeader
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
-import io.horizontalsystems.bitcoincore.storage.UnspentOutput
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
-import io.horizontalsystems.bitcoincore.utils.HashUtils
+import io.definenulls.bitcoincore.extensions.hexToByteArray
+import io.definenulls.bitcoincore.extensions.toReversedByteArray
+import io.definenulls.bitcoincore.models.*
+import io.definenulls.bitcoincore.storage.BlockHeader
+import io.definenulls.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.storage.UnspentOutput
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.utils.HashUtils
 
 object Fixtures {
 

@@ -1,12 +1,12 @@
-//package io.horizontalsystems.bitcoincore.managers
+//package io.definenulls.bitcoincore.managers
 //
 //import com.nhaarman.mockitokotlin2.*
-//import io.horizontalsystems.bitcoincore.RxTestRule
-//import io.horizontalsystems.bitcoincore.core.ErrorStorage
-//import io.horizontalsystems.bitcoincore.core.IStorage
-//import io.horizontalsystems.bitcoincore.core.ISyncStateListener
-//import io.horizontalsystems.bitcoincore.models.BlockHash
-//import io.horizontalsystems.bitcoincore.models.PublicKey
+//import io.definenulls.bitcoincore.RxTestRule
+//import io.definenulls.bitcoincore.core.ErrorStorage
+//import io.definenulls.bitcoincore.core.IStorage
+//import io.definenulls.bitcoincore.core.ISyncStateListener
+//import io.definenulls.bitcoincore.models.BlockHash
+//import io.definenulls.bitcoincore.models.PublicKey
 //import io.reactivex.Single
 //import org.mockito.Mockito.mock
 //import org.mockito.Mockito.reset

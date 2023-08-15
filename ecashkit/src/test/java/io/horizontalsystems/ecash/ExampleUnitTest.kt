@@ -1,4 +1,4 @@
-package io.horizontalsystems.ecash
+package io.definenulls.ecash
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

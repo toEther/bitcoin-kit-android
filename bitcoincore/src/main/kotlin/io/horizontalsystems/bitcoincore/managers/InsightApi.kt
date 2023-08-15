@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.core.IInitialSyncApi
+import io.definenulls.bitcoincore.core.IInitialSyncApi
 import java.util.logging.Logger
 
 class InsightApi(host: String) : IInitialSyncApi {

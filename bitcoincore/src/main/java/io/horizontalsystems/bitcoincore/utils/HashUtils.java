@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.utils;
+package io.definenulls.bitcoincore.utils;
 
 import org.bouncycastle.crypto.Digest;
 import org.bouncycastle.crypto.digests.SHA256Digest;

@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.core.IApiSyncListener
-import io.horizontalsystems.bitcoincore.core.IInitialSyncApi
-import io.horizontalsystems.bitcoincore.extensions.toReversedByteArray
-import io.horizontalsystems.bitcoincore.models.BlockHash
-import io.horizontalsystems.bitcoincore.models.PublicKey
+import io.definenulls.bitcoincore.core.IApiSyncListener
+import io.definenulls.bitcoincore.core.IInitialSyncApi
+import io.definenulls.bitcoincore.extensions.toReversedByteArray
+import io.definenulls.bitcoincore.models.BlockHash
+import io.definenulls.bitcoincore.models.PublicKey
 
 class BlockHashFetcher(
         private val restoreKeyConverter: IRestoreKeyConverter,

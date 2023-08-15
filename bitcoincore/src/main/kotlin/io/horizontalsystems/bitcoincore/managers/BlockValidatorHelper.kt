@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.models.Block
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.models.Block
 
 open class BlockValidatorHelper(protected val storage: IStorage) {
     fun getPreviousChunk(blockHeight: Int, size: Int): List<Block> {

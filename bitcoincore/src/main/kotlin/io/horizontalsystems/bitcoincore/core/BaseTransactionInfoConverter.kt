@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.core
+package io.definenulls.bitcoincore.core
 
-import io.horizontalsystems.bitcoincore.extensions.toReversedHex
-import io.horizontalsystems.bitcoincore.models.*
-import io.horizontalsystems.bitcoincore.storage.FullTransactionInfo
+import io.definenulls.bitcoincore.extensions.toReversedHex
+import io.definenulls.bitcoincore.models.*
+import io.definenulls.bitcoincore.storage.FullTransactionInfo
 
 class BaseTransactionInfoConverter(private val pluginManager: PluginManager) {
 

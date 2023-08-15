@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.network.peer
+package io.definenulls.bitcoincore.network.peer
 
-import io.horizontalsystems.bitcoincore.network.peer.task.PeerTask
+import io.definenulls.bitcoincore.network.peer.task.PeerTask
 
 interface IPeerTaskHandler {
     fun handleCompletedTask(peer: Peer, task: PeerTask): Boolean

@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
 import org.junit.Assert
 import org.spekframework.spek2.Spek

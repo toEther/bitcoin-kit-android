@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.crypto.BloomFilter
+import io.definenulls.bitcoincore.crypto.BloomFilter
 
 class BloomFilterManager {
 

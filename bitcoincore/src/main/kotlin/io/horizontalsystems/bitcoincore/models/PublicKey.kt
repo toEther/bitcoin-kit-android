@@ -1,12 +1,12 @@
-package io.horizontalsystems.bitcoincore.models
+package io.definenulls.bitcoincore.models
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.Index
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.transactions.scripts.OpCodes
-import io.horizontalsystems.bitcoincore.utils.Utils
-import io.horizontalsystems.hdwalletkit.ECKey
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.transactions.scripts.OpCodes
+import io.definenulls.bitcoincore.utils.Utils
+import io.definenulls.hdwalletkit.ECKey
 
 @Entity(primaryKeys = ["path"],
         indices = [

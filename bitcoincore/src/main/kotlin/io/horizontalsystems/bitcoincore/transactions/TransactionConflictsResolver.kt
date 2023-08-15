@@ -1,8 +1,8 @@
-package io.horizontalsystems.bitcoincore.transactions
+package io.definenulls.bitcoincore.transactions
 
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.models.Transaction
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.models.Transaction
+import io.definenulls.bitcoincore.storage.FullTransaction
 
 class TransactionConflictsResolver(private val storage: IStorage) {
 

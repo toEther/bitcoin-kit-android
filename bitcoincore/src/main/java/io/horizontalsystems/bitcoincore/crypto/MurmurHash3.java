@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.crypto;
+package io.definenulls.bitcoincore.crypto;
 
 /**
  * Applies the MurmurHash3 (x86_32) algorithm to the given data.

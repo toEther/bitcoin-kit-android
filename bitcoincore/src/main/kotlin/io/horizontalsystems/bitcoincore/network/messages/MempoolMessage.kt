@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoincore.network.messages
+package io.definenulls.bitcoincore.network.messages
 
 class MempoolMessage : IMessage {
     override fun toString(): String {

@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.network.peer.task
+package io.definenulls.bitcoincore.network.peer.task
 
-import io.horizontalsystems.bitcoincore.network.messages.IMessage
+import io.definenulls.bitcoincore.network.messages.IMessage
 
 open class PeerTask {
 

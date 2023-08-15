@@ -1,4 +1,4 @@
-package io.horizontalsystems.bitcoinkit.demo
+package io.definenulls.bitcoinkit.demo
 
 import android.annotation.SuppressLint
 import android.graphics.Color
@@ -15,12 +15,12 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.tabs.TabLayout
-import io.horizontalsystems.bitcoincore.models.TransactionInfo
-import io.horizontalsystems.bitcoincore.models.TransactionInputInfo
-import io.horizontalsystems.bitcoincore.models.TransactionOutputInfo
-import io.horizontalsystems.dashkit.models.DashTransactionInfo
-import io.horizontalsystems.hodler.HodlerOutputData
-import io.horizontalsystems.hodler.HodlerPlugin
+import io.definenulls.bitcoincore.models.TransactionInfo
+import io.definenulls.bitcoincore.models.TransactionInputInfo
+import io.definenulls.bitcoincore.models.TransactionOutputInfo
+import io.definenulls.dashkit.models.DashTransactionInfo
+import io.definenulls.hodler.HodlerOutputData
+import io.definenulls.hodler.HodlerPlugin
 import kotlinx.android.synthetic.main.fragment_transactions.*
 import java.text.DateFormat
 import java.util.*

@@ -1,4 +1,4 @@
-package io.horizontalsystems.dashkit.messages
+package io.definenulls.dashkit.messages
 
 import org.junit.jupiter.api.Assertions
 import org.spekframework.spek2.Spek

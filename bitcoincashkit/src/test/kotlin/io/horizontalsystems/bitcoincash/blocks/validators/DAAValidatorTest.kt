@@ -1,12 +1,12 @@
-package io.horizontalsystems.bitcoincash.blocks.validators
+package io.definenulls.bitcoincash.blocks.validators
 
 import com.nhaarman.mockito_kotlin.any
 import com.nhaarman.mockito_kotlin.mock
 import com.nhaarman.mockito_kotlin.whenever
-import io.horizontalsystems.bitcoincash.blocks.BitcoinCashBlockValidatorHelper
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.models.Block
-import io.horizontalsystems.bitcoincore.storage.BlockHeader
+import io.definenulls.bitcoincash.blocks.BitcoinCashBlockValidatorHelper
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.models.Block
+import io.definenulls.bitcoincore.storage.BlockHeader
 import org.junit.Assert
 import org.junit.jupiter.api.Assertions
 import org.spekframework.spek2.Spek

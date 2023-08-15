@@ -1,8 +1,8 @@
-package io.horizontalsystems.dashkit.instantsend.instantsendlock
+package io.definenulls.dashkit.instantsend.instantsendlock
 
-import io.horizontalsystems.bitcoincore.core.HashBytes
-import io.horizontalsystems.dashkit.instantsend.InstantSendLockValidator
-import io.horizontalsystems.dashkit.messages.ISLockMessage
+import io.definenulls.bitcoincore.core.HashBytes
+import io.definenulls.dashkit.instantsend.InstantSendLockValidator
+import io.definenulls.dashkit.messages.ISLockMessage
 
 class InstantSendLockManager(private val instantSendLockValidator: InstantSendLockValidator) {
     private val relayedLocks = mutableMapOf<HashBytes, ISLockMessage>()

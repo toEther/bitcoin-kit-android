@@ -1,26 +1,26 @@
-package io.horizontalsystems.bitcoinkit
+package io.definenulls.bitcoinkit
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
-import io.horizontalsystems.bitcoincore.AbstractKit
-import io.horizontalsystems.bitcoincore.BitcoinCore
-import io.horizontalsystems.bitcoincore.BitcoinCore.SyncMode
-import io.horizontalsystems.bitcoincore.BitcoinCoreBuilder
-import io.horizontalsystems.bitcoincore.blocks.BlockMedianTimeHelper
-import io.horizontalsystems.bitcoincore.blocks.validators.*
-import io.horizontalsystems.bitcoincore.core.IInitialSyncApi
-import io.horizontalsystems.bitcoincore.managers.*
-import io.horizontalsystems.bitcoincore.network.Network
-import io.horizontalsystems.bitcoincore.storage.CoreDatabase
-import io.horizontalsystems.bitcoincore.storage.Storage
-import io.horizontalsystems.bitcoincore.utils.Base58AddressConverter
-import io.horizontalsystems.bitcoincore.utils.PaymentAddressParser
-import io.horizontalsystems.bitcoincore.utils.SegwitAddressConverter
-import io.horizontalsystems.bitcoinkit.BitcoinKit.Listener
-import io.horizontalsystems.bitcoinkit.BitcoinKit.NetworkType
-import io.horizontalsystems.hdwalletkit.*
-import io.horizontalsystems.hdwalletkit.HDWallet.Purpose
-import io.horizontalsystems.hodler.HodlerPlugin
+import io.definenulls.bitcoincore.AbstractKit
+import io.definenulls.bitcoincore.BitcoinCore
+import io.definenulls.bitcoincore.BitcoinCore.SyncMode
+import io.definenulls.bitcoincore.BitcoinCoreBuilder
+import io.definenulls.bitcoincore.blocks.BlockMedianTimeHelper
+import io.definenulls.bitcoincore.blocks.validators.*
+import io.definenulls.bitcoincore.core.IInitialSyncApi
+import io.definenulls.bitcoincore.managers.*
+import io.definenulls.bitcoincore.network.Network
+import io.definenulls.bitcoincore.storage.CoreDatabase
+import io.definenulls.bitcoincore.storage.Storage
+import io.definenulls.bitcoincore.utils.Base58AddressConverter
+import io.definenulls.bitcoincore.utils.PaymentAddressParser
+import io.definenulls.bitcoincore.utils.SegwitAddressConverter
+import io.definenulls.bitcoinkit.BitcoinKit.Listener
+import io.definenulls.bitcoinkit.BitcoinKit.NetworkType
+import io.definenulls.hdwalletkit.*
+import io.definenulls.hdwalletkit.HDWallet.Purpose
+import io.definenulls.hodler.HodlerPlugin
 
 /**
  *

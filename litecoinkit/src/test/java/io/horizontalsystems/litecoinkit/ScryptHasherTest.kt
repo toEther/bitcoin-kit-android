@@ -1,7 +1,7 @@
-package io.horizontalsystems.litecoinkit
+package io.definenulls.litecoinkit
 
-import io.horizontalsystems.bitcoincore.extensions.hexToByteArray
-import io.horizontalsystems.bitcoincore.extensions.toHexString
+import io.definenulls.bitcoincore.extensions.hexToByteArray
+import io.definenulls.bitcoincore.extensions.toHexString
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

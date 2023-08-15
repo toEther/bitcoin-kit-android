@@ -1,15 +1,15 @@
-package io.horizontalsystems.dashkit.core
+package io.definenulls.dashkit.core
 
-import io.horizontalsystems.bitcoincore.core.BaseTransactionInfoConverter
-import io.horizontalsystems.bitcoincore.core.ITransactionInfoConverter
-import io.horizontalsystems.bitcoincore.extensions.toHexString
-import io.horizontalsystems.bitcoincore.models.InvalidTransaction
-import io.horizontalsystems.bitcoincore.models.Transaction
-import io.horizontalsystems.bitcoincore.models.TransactionMetadata
-import io.horizontalsystems.bitcoincore.models.TransactionStatus
-import io.horizontalsystems.bitcoincore.storage.FullTransactionInfo
-import io.horizontalsystems.dashkit.instantsend.InstantTransactionManager
-import io.horizontalsystems.dashkit.models.DashTransactionInfo
+import io.definenulls.bitcoincore.core.BaseTransactionInfoConverter
+import io.definenulls.bitcoincore.core.ITransactionInfoConverter
+import io.definenulls.bitcoincore.extensions.toHexString
+import io.definenulls.bitcoincore.models.InvalidTransaction
+import io.definenulls.bitcoincore.models.Transaction
+import io.definenulls.bitcoincore.models.TransactionMetadata
+import io.definenulls.bitcoincore.models.TransactionStatus
+import io.definenulls.bitcoincore.storage.FullTransactionInfo
+import io.definenulls.dashkit.instantsend.InstantTransactionManager
+import io.definenulls.dashkit.models.DashTransactionInfo
 
 class DashTransactionInfoConverter(private val instantTransactionManager: InstantTransactionManager) : ITransactionInfoConverter {
     override lateinit var baseConverter: BaseTransactionInfoConverter

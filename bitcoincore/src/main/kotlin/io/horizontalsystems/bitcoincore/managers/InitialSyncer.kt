@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.core.IPublicKeyManager
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.models.BlockHash
-import io.horizontalsystems.bitcoincore.models.PublicKey
+import io.definenulls.bitcoincore.core.IPublicKeyManager
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.models.BlockHash
+import io.definenulls.bitcoincore.models.PublicKey
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import java.util.logging.Logger

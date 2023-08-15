@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.network.peer
+package io.definenulls.bitcoincore.network.peer
 
-import io.horizontalsystems.bitcoincore.core.IPeerAddressManager
-import io.horizontalsystems.bitcoincore.core.IPeerAddressManagerListener
-import io.horizontalsystems.bitcoincore.core.IStorage
-import io.horizontalsystems.bitcoincore.models.PeerAddress
-import io.horizontalsystems.bitcoincore.network.Network
+import io.definenulls.bitcoincore.core.IPeerAddressManager
+import io.definenulls.bitcoincore.core.IPeerAddressManagerListener
+import io.definenulls.bitcoincore.core.IStorage
+import io.definenulls.bitcoincore.models.PeerAddress
+import io.definenulls.bitcoincore.network.Network
 import java.util.logging.Logger
 
 class PeerAddressManager(private val network: Network, private val storage: IStorage) : IPeerAddressManager {

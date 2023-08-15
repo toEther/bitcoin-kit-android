@@ -1,4 +1,4 @@
-package io.horizontalsystems.dashkit
+package io.definenulls.dashkit
 
 object DashKitErrors {
     sealed class LockVoteValidation : Exception() {

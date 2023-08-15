@@ -1,9 +1,9 @@
-package io.horizontalsystems.bitcoincore.managers
+package io.definenulls.bitcoincore.managers
 
-import io.horizontalsystems.bitcoincore.extensions.toHexString
-import io.horizontalsystems.bitcoincore.models.PublicKey
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
-import io.horizontalsystems.bitcoincore.utils.IAddressConverter
+import io.definenulls.bitcoincore.extensions.toHexString
+import io.definenulls.bitcoincore.models.PublicKey
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.utils.IAddressConverter
 
 interface IRestoreKeyConverter {
     fun keysForApiRestore(publicKey: PublicKey): List<String>

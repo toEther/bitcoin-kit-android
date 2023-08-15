@@ -1,10 +1,10 @@
-package io.horizontalsystems.bitcoincore.transactions.builder
+package io.definenulls.bitcoincore.transactions.builder
 
-import io.horizontalsystems.bitcoincore.core.IPluginData
-import io.horizontalsystems.bitcoincore.core.IRecipientSetter
-import io.horizontalsystems.bitcoincore.models.TransactionDataSortType
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
-import io.horizontalsystems.bitcoincore.storage.UnspentOutput
+import io.definenulls.bitcoincore.core.IPluginData
+import io.definenulls.bitcoincore.core.IRecipientSetter
+import io.definenulls.bitcoincore.models.TransactionDataSortType
+import io.definenulls.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.storage.UnspentOutput
 
 class TransactionBuilder(
         private val recipientSetter: IRecipientSetter,

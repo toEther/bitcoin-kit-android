@@ -1,13 +1,13 @@
-package io.horizontalsystems.bitcoincore.core
+package io.definenulls.bitcoincore.core
 
-import io.horizontalsystems.bitcoincore.managers.IRestoreKeyConverter
-import io.horizontalsystems.bitcoincore.models.Address
-import io.horizontalsystems.bitcoincore.models.PublicKey
-import io.horizontalsystems.bitcoincore.models.TransactionOutput
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
-import io.horizontalsystems.bitcoincore.storage.UnspentOutput
-import io.horizontalsystems.bitcoincore.transactions.builder.MutableTransaction
-import io.horizontalsystems.bitcoincore.transactions.scripts.Script
+import io.definenulls.bitcoincore.managers.IRestoreKeyConverter
+import io.definenulls.bitcoincore.models.Address
+import io.definenulls.bitcoincore.models.PublicKey
+import io.definenulls.bitcoincore.models.TransactionOutput
+import io.definenulls.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.storage.UnspentOutput
+import io.definenulls.bitcoincore.transactions.builder.MutableTransaction
+import io.definenulls.bitcoincore.transactions.scripts.Script
 
 class PluginManager {
     private val plugins = mutableMapOf<Byte, IPlugin>()

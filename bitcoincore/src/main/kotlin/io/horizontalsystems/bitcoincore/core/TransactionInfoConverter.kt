@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.core
+package io.definenulls.bitcoincore.core
 
-import io.horizontalsystems.bitcoincore.models.TransactionInfo
-import io.horizontalsystems.bitcoincore.storage.FullTransactionInfo
+import io.definenulls.bitcoincore.models.TransactionInfo
+import io.definenulls.bitcoincore.storage.FullTransactionInfo
 
 class TransactionInfoConverter : ITransactionInfoConverter {
     override lateinit var baseConverter: BaseTransactionInfoConverter
